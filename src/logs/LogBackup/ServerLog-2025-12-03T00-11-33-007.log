@@ -1,0 +1,129 @@
+=== Started 2025-12-03T00-10-37-230 ===
+[INFO ][00:10:37] 0 IP ban records loaded.
+[WARN ][00:10:37] User account "Local Administrator" disabled
+[WARN ][00:10:37] User account "Local Moderator" disabled
+[WARN ][00:10:37] User account "Local User" disabled
+[INFO ][00:10:37] 0 user records loaded.
+[INFO ][00:10:37] 419 bad words loaded
+[INFO ][00:10:37] [CIRCULAR] Using configured worldRadius: 22500
+[INFO ][00:10:37] [1m[32mMultiOgar-Edited 1.6.1[37m - An open source multi-protocol ogar server[0m
+[INFO ][00:10:37] WebSocket: ws
+[INFO ][00:10:37] Started stats server on port 88
+[INFO ][00:10:37] Listening on port 8081
+[INFO ][00:10:37] Current game mode is Free For All
+[NONE ][00:10:59] CONNECTED 127.0.0.1:61852, origin: "https://aetlis.io"
+[INFO ][00:10:59] [VANIS] 🎮 Handshake received (69, 420) - Client is using Vanis protocol
+[INFO ][00:10:59] [VANIS] 🌍 Initial world sent - CIRCULAR MAP, Radius: 22500
+[DEBUG][00:10:59] [VANIS] Sent 0 existing player infos to new client
+[DEBUG][00:10:59] [VANIS] Initial world sent to new client
+[DEBUG][00:10:59] [VANIS] Player info received - Name: "Mock" Discord: present
+[DEBUG][00:10:59] [VANIS] Discord token set for player
+[DEBUG][00:10:59] [VANIS] Broadcast player info to all clients after receiving player info
+[INFO ][00:10:59] [VANIS] 🚀 Join request received
+[DEBUG][00:10:59] [VANIS] Discord token set for player
+[INFO ][00:10:59] [VANIS] ✅ Spawning player: "Mock" Tag: ""
+[DEBUG][00:10:59] [JOIN] Vanis client spawning: Mock
+[DEBUG][00:10:59] [JOIN] Broadcast player info to 1 clients
+[DEBUG][00:10:59] [JOIN] Sent spawn confirm packet to Vanis client
+[INFO ][00:10:59] [JOIN] Player spawned: "Mock" with 1 cells
+[DEBUG][00:10:59] [BROADCAST] Player info sent for PID=1 Name=Mock
+[DEBUG][00:11:00] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:01] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:01] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:02] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:03] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:03] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:03] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:05] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:05] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:06] [SPLIT] Received split request: amount=3
+[DEBUG][00:11:06] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:06] [SPLIT] Received split request: amount=3
+[DEBUG][00:11:07] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:07] [XP] Player 1 leveled up to 2!
+[INFO ][00:11:08] [VANIS] 🚀 Join request received
+[DEBUG][00:11:08] [VANIS] Discord token set for player
+[DEBUG][00:11:08] [VANIS] Player has 9 cells, spawning dead cells for respawn
+[DEBUG][00:11:08] [DEAD] Spawned 9 dead cells from player
+[INFO ][00:11:08] [VANIS] ✅ Spawning player: "Mock" Tag: ""
+[DEBUG][00:11:08] [JOIN] Vanis client spawning: Mock
+[DEBUG][00:11:08] [JOIN] Broadcast player info to 1 clients
+[DEBUG][00:11:08] [JOIN] Sent spawn confirm packet to Vanis client
+[INFO ][00:11:08] [JOIN] Player spawned: "Mock" with 1 cells
+[DEBUG][00:11:08] [BROADCAST] Player info sent for PID=1 Name=Mock
+[DEBUG][00:11:08] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:09] [SPLIT] Received split request: amount=1
+[DEBUG][00:11:10] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:10] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:11] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:11] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:11] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:11] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:11] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:11] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:11] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:11] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:12] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:12] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:12] [SPLIT] Received split request: amount=7
+[INFO ][00:11:12] [VANIS] 🚀 Join request received
+[DEBUG][00:11:12] [VANIS] Discord token set for player
+[DEBUG][00:11:12] [VANIS] Player has 95 cells, spawning dead cells for respawn
+[DEBUG][00:11:12] [DEAD] Spawned 95 dead cells from player
+[INFO ][00:11:12] [VANIS] ✅ Spawning player: "Mock" Tag: ""
+[DEBUG][00:11:12] [JOIN] Vanis client spawning: Mock
+[DEBUG][00:11:12] [JOIN] Broadcast player info to 1 clients
+[DEBUG][00:11:12] [JOIN] Sent spawn confirm packet to Vanis client
+[INFO ][00:11:12] [JOIN] Player spawned: "Mock" with 1 cells
+[DEBUG][00:11:12] [BROADCAST] Player info sent for PID=1 Name=Mock
+[DEBUG][00:11:13] [SPLIT] Received split request: amount=1
+[DEBUG][00:11:13] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:13] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:14] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:14] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:14] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:14] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:15] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:15] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:15] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:15] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:15] [SPLIT] Received split request: amount=7
+[INFO ][00:11:17] [VANIS] 🚀 Join request received
+[DEBUG][00:11:17] [VANIS] Discord token set for player
+[DEBUG][00:11:17] [VANIS] Player has 73 cells, spawning dead cells for respawn
+[DEBUG][00:11:17] [DEAD] Spawned 73 dead cells from player
+[INFO ][00:11:17] [VANIS] ✅ Spawning player: "Mock" Tag: ""
+[DEBUG][00:11:17] [JOIN] Vanis client spawning: Mock
+[DEBUG][00:11:17] [JOIN] Broadcast player info to 1 clients
+[DEBUG][00:11:17] [JOIN] Sent spawn confirm packet to Vanis client
+[INFO ][00:11:17] [JOIN] Player spawned: "Mock" with 1 cells
+[DEBUG][00:11:17] [BROADCAST] Player info sent for PID=1 Name=Mock
+[DEBUG][00:11:17] [SPLIT] Received split request: amount=1
+[INFO ][00:11:17] [VANIS] 🚀 Join request received
+[DEBUG][00:11:17] [VANIS] Join rejected - cooldown active
+[INFO ][00:11:18] [VANIS] 🚀 Join request received
+[DEBUG][00:11:18] [VANIS] Discord token set for player
+[DEBUG][00:11:18] [VANIS] Player has 2 cells, spawning dead cells for respawn
+[DEBUG][00:11:18] [DEAD] Spawned 2 dead cells from player
+[INFO ][00:11:18] [VANIS] ✅ Spawning player: "Mock" Tag: ""
+[DEBUG][00:11:18] [JOIN] Vanis client spawning: Mock
+[DEBUG][00:11:18] [JOIN] Broadcast player info to 1 clients
+[DEBUG][00:11:18] [JOIN] Sent spawn confirm packet to Vanis client
+[INFO ][00:11:18] [JOIN] Player spawned: "Mock" with 1 cells
+[DEBUG][00:11:18] [BROADCAST] Player info sent for PID=1 Name=Mock
+[DEBUG][00:11:18] [XP] Player 1 leveled up to 3!
+[DEBUG][00:11:19] [SPLIT] Received split request: amount=1
+[DEBUG][00:11:19] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:19] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:20] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:20] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:20] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:20] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:20] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:20] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:20] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:21] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:21] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:21] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:21] [SPLIT] Received split request: amount=7
+[DEBUG][00:11:21] [SPLIT] Received split request: amount=7

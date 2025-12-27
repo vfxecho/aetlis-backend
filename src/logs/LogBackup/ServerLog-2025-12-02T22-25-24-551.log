@@ -1,0 +1,37 @@
+=== Started 2025-12-02T22-25-15-267 ===
+[INFO ][22:25:15] 0 IP ban records loaded.
+[WARN ][22:25:15] User account "Local Administrator" disabled
+[WARN ][22:25:15] User account "Local Moderator" disabled
+[WARN ][22:25:15] User account "Local User" disabled
+[INFO ][22:25:15] 0 user records loaded.
+[INFO ][22:25:15] 419 bad words loaded
+[INFO ][22:25:15] [1m[32mMultiOgar-Edited 1.6.1[37m - An open source multi-protocol ogar server[0m
+[INFO ][22:25:15] WebSocket: ws
+[INFO ][22:25:15] Started stats server on port 88
+[INFO ][22:25:15] Listening on port 8081
+[INFO ][22:25:15] Current game mode is Free For All
+[NONE ][22:25:18] CONNECTED 127.0.0.1:51734, origin: "http://localhost"
+[INFO ][22:25:18] [VANIS] 🎮 Handshake received (69, 420) - Client is using Vanis protocol
+[INFO ][22:25:18] [VANIS] 🌍 Initial world sent - Border: 45000x45000
+[DEBUG][22:25:18] [VANIS] Player info received - Name: "asdasd"
+[INFO ][22:25:20] [VANIS] 🚀 Join request received
+[INFO ][22:25:20] [VANIS] ✅ Spawning player: "asdasd"
+[DEBUG][22:25:20] [JOIN] Vanis client spawning: asdasd
+[INFO ][22:25:20] [JOIN] Player spawned: "asdasd" with 1 cells
+[DEBUG][22:25:22] [VANIS] Chat: "fwf"
+[DEBUG][22:25:24] [VANIS] Chat: "hey"
+[DEBUG][22:25:25] [VANIS] Chat: "İ"
+[DEBUG][22:25:26] [VANIS] Chat: "Ş"
+[DEBUG][22:25:27] [VANIS] Chat: "ah"
+[DEBUG][22:25:27] [VANIS] Chat: "fuck"
+[DEBUG][22:25:28] [VANIS] Chat: "lol"
+[DEBUG][22:25:29] [VANIS] Chat: "omg"
+[DEBUG][22:25:30] [VANIS] Chat: "/ban"
+[DEBUG][22:25:31] [VANIS] Chat: "/kick"
+[DEBUG][22:25:32] [VANIS] Chat: "/help"
+[INFO ][22:25:38] [VANIS] 🚀 Join request received
+[DEBUG][22:25:38] [VANIS] Join rejected - cooldown or already has cells
+[INFO ][22:25:38] [VANIS] 🚀 Join request received
+[DEBUG][22:25:38] [VANIS] Join rejected - cooldown or already has cells
+[INFO ][22:25:38] [VANIS] 🚀 Join request received
+[DEBUG][22:25:38] [VANIS] Join rejected - cooldown or already has cells

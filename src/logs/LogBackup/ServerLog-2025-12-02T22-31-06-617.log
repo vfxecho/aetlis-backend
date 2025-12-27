@@ -1,0 +1,52 @@
+=== Started 2025-12-02T22-30-40-086 ===
+[ERROR][22:30:40] Unknown gameserver.ini value: 0
+[INFO ][22:30:40] 0 IP ban records loaded.
+[WARN ][22:30:40] User account "Local Administrator" disabled
+[WARN ][22:30:40] User account "Local Moderator" disabled
+[WARN ][22:30:40] User account "Local User" disabled
+[INFO ][22:30:40] 0 user records loaded.
+[INFO ][22:30:40] 419 bad words loaded
+[INFO ][22:30:40] [1m[32mMultiOgar-Edited 1.6.1[37m - An open source multi-protocol ogar server[0m
+[INFO ][22:30:40] WebSocket: ws
+[INFO ][22:30:40] Started stats server on port 88
+[INFO ][22:30:40] Listening on port 8081
+[INFO ][22:30:40] Current game mode is Free For All
+[NONE ][22:30:42] CONNECTED 127.0.0.1:53258, origin: "http://localhost"
+[INFO ][22:30:42] [VANIS] 🎮 Handshake received (69, 420) - Client is using Vanis protocol
+[INFO ][22:30:42] [VANIS] 🌍 Initial world sent - Border: 45000x45000
+[DEBUG][22:30:42] [VANIS] Player info received - Name: "asdasd"
+[NONE ][22:30:43] DISCONNECTED 127.0.0.1:53258, code: 1005, reason: "", name: "asdasd"
+[NONE ][22:30:47] CONNECTED 127.0.0.1:58712, origin: "http://localhost"
+[INFO ][22:30:47] [VANIS] 🎮 Handshake received (69, 420) - Client is using Vanis protocol
+[INFO ][22:30:47] [VANIS] 🌍 Initial world sent - Border: 45000x45000
+[DEBUG][22:30:47] [VANIS] Player info received - Name: "asdasd"
+[INFO ][22:30:50] [VANIS] 🚀 Join request received
+[INFO ][22:30:50] [VANIS] ✅ Spawning player: "asdasd"
+[DEBUG][22:30:50] [JOIN] Vanis client spawning: asdasd
+[INFO ][22:30:50] [JOIN] Player spawned: "asdasd" with 1 cells
+[DEBUG][22:30:50] [SPLIT] Received split request: amount=6
+[DEBUG][22:30:51] [SPLIT] Received split request: amount=6
+[DEBUG][22:30:54] [SPLIT] Received split request: amount=6
+[DEBUG][22:30:55] [SPLIT] Received split request: amount=6
+[DEBUG][22:30:55] [SPLIT] Received split request: amount=6
+[DEBUG][22:30:55] [SPLIT] Received split request: amount=6
+[DEBUG][22:30:56] [SPLIT] Received split request: amount=6
+[DEBUG][22:30:56] [SPLIT] Received split request: amount=6
+[DEBUG][22:30:58] [SPLIT] Received split request: amount=6
+[DEBUG][22:30:58] [SPLIT] Received split request: amount=6
+[DEBUG][22:30:59] [SPLIT] Received split request: amount=6
+[DEBUG][22:30:59] [SPLIT] Received split request: amount=6
+[DEBUG][22:31:00] [SPLIT] Received split request: amount=6
+[DEBUG][22:31:00] [SPLIT] Received split request: amount=6
+[DEBUG][22:31:00] [SPLIT] Received split request: amount=6
+[DEBUG][22:31:00] [SPLIT] Received split request: amount=6
+[DEBUG][22:31:01] [SPLIT] Received split request: amount=6
+[DEBUG][22:31:01] [SPLIT] Received split request: amount=6
+[DEBUG][22:31:02] [SPLIT] Received split request: amount=6
+[DEBUG][22:31:02] [SPLIT] Received split request: amount=6
+[DEBUG][22:31:03] [SPLIT] Received split request: amount=6
+[DEBUG][22:31:03] [SPLIT] Received split request: amount=6
+[DEBUG][22:31:03] [SPLIT] Received split request: amount=6
+[DEBUG][22:31:04] [SPLIT] Received split request: amount=6
+[DEBUG][22:31:04] [SPLIT] Received split request: amount=6
+[DEBUG][22:31:04] [SPLIT] Received split request: amount=6

@@ -1,0 +1,114 @@
+=== Started 2025-12-03T00-26-51-998 ===
+[INFO ][00:26:52] 0 IP ban records loaded.
+[WARN ][00:26:52] User account "Local Administrator" disabled
+[WARN ][00:26:52] User account "Local Moderator" disabled
+[WARN ][00:26:52] User account "Local User" disabled
+[INFO ][00:26:52] 0 user records loaded.
+[INFO ][00:26:52] 419 bad words loaded
+[INFO ][00:26:52] [CIRCULAR] Using configured worldRadius: 22500
+[INFO ][00:26:52] [1m[32mMultiOgar-Edited 1.6.1[37m - An open source multi-protocol ogar server[0m
+[INFO ][00:26:52] WebSocket: ws
+[INFO ][00:26:52] Started stats server on port 88
+[INFO ][00:26:52] Listening on port 8081
+[INFO ][00:26:52] Current game mode is Free For All
+[NONE ][00:27:03] CONNECTED 127.0.0.1:54368, origin: "https://aetlis.io"
+[INFO ][00:27:03] [VANIS] 🎮 Handshake received (69, 420) - Client is using Vanis protocol
+[INFO ][00:27:03] [VANIS] 🌍 Initial world sent - CIRCULAR MAP, Radius: 22500
+[DEBUG][00:27:03] [VANIS] Sent 0 existing player infos to new client
+[DEBUG][00:27:03] [VANIS] Initial world sent to new client
+[DEBUG][00:27:03] [VANIS] Player info received - Name: "Mock" Discord: present
+[DEBUG][00:27:03] [VANIS] Discord token set for player
+[DEBUG][00:27:03] [VANIS] Broadcast player info to all clients after receiving player info
+[INFO ][00:27:04] [VANIS] 🚀 Join request received
+[DEBUG][00:27:04] [VANIS] Discord token set for player
+[INFO ][00:27:04] [VANIS] ✅ Spawning player: "Mock" Tag: ""
+[DEBUG][00:27:04] [JOIN] Vanis client spawning: Mock
+[DEBUG][00:27:04] [JOIN] Broadcast player info to 1 clients
+[DEBUG][00:27:04] [JOIN] Sent spawn confirm packet to Vanis client
+[INFO ][00:27:04] [JOIN] Player spawned: "Mock" with 1 cells
+[DEBUG][00:27:04] [BROADCAST] Player info sent for PID=1 Name=Mock
+[DEBUG][00:27:04] [SPLIT] Received split request: amount=7
+[DEBUG][00:27:05] [XP] Player 1 leveled up to 2!
+[DEBUG][00:27:06] [SPLIT] Received split request: amount=7
+[DEBUG][00:27:08] [SPLIT] Received split request: amount=7
+[DEBUG][00:27:09] [SPLIT] Received split request: amount=7
+[DEBUG][00:27:09] [SPLIT] Received split request: amount=7
+[DEBUG][00:27:10] [SPLIT] Received split request: amount=7
+[DEBUG][00:27:13] [SPLIT] Received split request: amount=7
+[DEBUG][00:27:13] [SPLIT] Received split request: amount=7
+[DEBUG][00:27:14] [SPLIT] Received split request: amount=7
+[DEBUG][00:27:15] [SPLIT] Received split request: amount=7
+[DEBUG][00:27:15] [SPLIT] Received split request: amount=7
+[DEBUG][00:27:16] [SPLIT] Received split request: amount=7
+[DEBUG][00:27:16] [SPLIT] Received split request: amount=7
+[DEBUG][00:27:17] [SPLIT] Received split request: amount=7
+[DEBUG][00:27:17] [SPLIT] Received split request: amount=7
+[DEBUG][00:27:18] [XP] Player 1 leveled up to 3!
+[DEBUG][00:28:01] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:03] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:04] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:05] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:05] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:06] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:06] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:07] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:07] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:08] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:08] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:09] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:09] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:09] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:10] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:10] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:11] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:11] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:11] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:12] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:12] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:13] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:13] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:14] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:14] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:15] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:15] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:16] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:16] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:16] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:17] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:17] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:18] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:18] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:18] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:19] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:19] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:20] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:20] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:21] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:21] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:22] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:23] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:23] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:24] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:24] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:24] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:25] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:25] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:25] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:26] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:26] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:27] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:27] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:28] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:28] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:29] [SPLIT] Received split request: amount=3
+[DEBUG][00:28:29] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:30] [SPLIT] Received split request: amount=3
+[DEBUG][00:28:30] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:31] [SPLIT] Received split request: amount=3
+[DEBUG][00:28:31] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:32] [SPLIT] Received split request: amount=3
+[DEBUG][00:28:32] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:32] [SPLIT] Received split request: amount=3
+[DEBUG][00:28:33] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:33] [SPLIT] Received split request: amount=7
+[DEBUG][00:28:35] [XP] Player 1 leveled up to 4!

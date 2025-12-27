@@ -1,0 +1,31 @@
+=== Started 2025-12-03T02-19-50-681 ===
+[INFO ][02:19:50] 0 IP ban records loaded.
+[WARN ][02:19:50] User account "Local Administrator" disabled
+[WARN ][02:19:50] User account "Local Moderator" disabled
+[WARN ][02:19:50] User account "Local User" disabled
+[INFO ][02:19:50] 0 user records loaded.
+[INFO ][02:19:50] 419 bad words loaded
+[INFO ][02:19:50] [CIRCULAR] Using configured worldRadius: 22500
+[INFO ][02:19:50] [1m[32mMultiOgar-Edited 1.6.1[37m - An open source multi-protocol ogar server[0m
+[INFO ][02:19:50] WebSocket: ws
+[INFO ][02:19:50] Started stats server on port 88
+[INFO ][02:19:50] Listening on port 8081
+[INFO ][02:19:50] Current game mode is Free For All
+[NONE ][02:19:58] CONNECTED 127.0.0.1:61359, origin: "https://aetlis.io"
+[INFO ][02:19:58] [VANIS] 🎮 Handshake received (69, 420) - Client is using Vanis protocol
+[INFO ][02:19:58] [VANIS] 🌍 Initial world sent - CIRCULAR MAP, Radius: 22500
+[DEBUG][02:19:58] [VANIS] Sent 0 existing player infos to new client
+[DEBUG][02:19:58] [VANIS] Initial world sent to new client
+[DEBUG][02:19:58] [VANIS] Player info received - Name: "Mock" Discord: present
+[DEBUG][02:19:58] [VANIS] Discord token set for player
+[DEBUG][02:19:58] [VANIS] Broadcast player info to all clients after receiving player info
+[INFO ][02:19:58] [VANIS] 🚀 Join request received
+[DEBUG][02:19:58] [VANIS] Discord token set for player
+[INFO ][02:19:58] [VANIS] ✅ Spawning player: "Mock" Tag: ""
+[DEBUG][02:19:58] [JOIN] Vanis client spawning: Mock
+[DEBUG][02:19:58] [JOIN] Broadcast player info to 1 clients
+[DEBUG][02:19:58] [JOIN] Sent spawn confirm packet to Vanis client
+[INFO ][02:19:58] [JOIN] Player spawned: "Mock" with 1 cells
+[DEBUG][02:19:58] [BROADCAST] Player info sent for PID=1 Name=Mock
+[DEBUG][02:19:59] [SPLIT] Received split request: amount=7
+[DEBUG][02:19:59] [XP] Player 1 leveled up to 2!

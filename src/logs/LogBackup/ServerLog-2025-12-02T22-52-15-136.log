@@ -1,0 +1,76 @@
+=== Started 2025-12-02T22-51-29-081 ===
+[INFO ][22:51:29] 0 IP ban records loaded.
+[WARN ][22:51:29] User account "Local Administrator" disabled
+[WARN ][22:51:29] User account "Local Moderator" disabled
+[WARN ][22:51:29] User account "Local User" disabled
+[INFO ][22:51:29] 0 user records loaded.
+[INFO ][22:51:29] 419 bad words loaded
+[INFO ][22:51:29] [1m[32mMultiOgar-Edited 1.6.1[37m - An open source multi-protocol ogar server[0m
+[INFO ][22:51:29] WebSocket: ws
+[INFO ][22:51:29] Started stats server on port 88
+[INFO ][22:51:29] Listening on port 8081
+[INFO ][22:51:29] Current game mode is Free For All
+[NONE ][22:51:31] CONNECTED 127.0.0.1:53300, origin: "http://localhost"
+[INFO ][22:51:31] [VANIS] 🎮 Handshake received (69, 420) - Client is using Vanis protocol
+[INFO ][22:51:31] [VANIS] 🌍 Initial world sent - Border: 45000x45000
+[DEBUG][22:51:31] [VANIS] Player info received - Name: "asdasd"
+[INFO ][22:51:34] [VANIS] 🚀 Join request received
+[INFO ][22:51:34] [VANIS] ✅ Spawning player: "asdasd"
+[DEBUG][22:51:34] [JOIN] Vanis client spawning: asdasd
+[DEBUG][22:51:34] [JOIN] Sent spawn confirm packet to Vanis client
+[INFO ][22:51:34] [JOIN] Player spawned: "asdasd" with 1 cells
+[INFO ][22:51:34] [VANIS] 🚀 Join request received
+[DEBUG][22:51:34] [VANIS] Join rejected - cooldown active
+[INFO ][22:51:34] [VANIS] 🚀 Join request received
+[DEBUG][22:51:34] [VANIS] Join rejected - cooldown active
+[INFO ][22:51:35] [VANIS] 🚀 Join request received
+[DEBUG][22:51:35] [VANIS] Player has 1 cells, spawning dead cells for respawn
+[DEBUG][22:51:35] [DEAD] Spawned 1 dead cells from player
+[INFO ][22:51:35] [VANIS] ✅ Spawning player: "asdasd"
+[DEBUG][22:51:35] [JOIN] Vanis client spawning: asdasd
+[DEBUG][22:51:35] [JOIN] Sent spawn confirm packet to Vanis client
+[INFO ][22:51:35] [JOIN] Player spawned: "asdasd" with 1 cells
+[INFO ][22:51:35] [VANIS] 🚀 Join request received
+[DEBUG][22:51:35] [VANIS] Join rejected - cooldown active
+[INFO ][22:51:35] [VANIS] 🚀 Join request received
+[DEBUG][22:51:35] [VANIS] Join rejected - cooldown active
+[INFO ][22:51:35] [VANIS] 🚀 Join request received
+[DEBUG][22:51:35] [VANIS] Join rejected - cooldown active
+[INFO ][22:51:36] [VANIS] 🚀 Join request received
+[DEBUG][22:51:36] [VANIS] Player has 1 cells, spawning dead cells for respawn
+[DEBUG][22:51:36] [DEAD] Spawned 1 dead cells from player
+[INFO ][22:51:36] [VANIS] ✅ Spawning player: "asdasd"
+[DEBUG][22:51:36] [JOIN] Vanis client spawning: asdasd
+[DEBUG][22:51:36] [JOIN] Sent spawn confirm packet to Vanis client
+[INFO ][22:51:36] [JOIN] Player spawned: "asdasd" with 1 cells
+[INFO ][22:51:36] [VANIS] 🚀 Join request received
+[DEBUG][22:51:36] [VANIS] Join rejected - cooldown active
+[INFO ][22:51:36] [VANIS] 🚀 Join request received
+[DEBUG][22:51:36] [VANIS] Join rejected - cooldown active
+[INFO ][22:51:36] [VANIS] 🚀 Join request received
+[DEBUG][22:51:36] [VANIS] Join rejected - cooldown active
+[INFO ][22:51:36] [VANIS] 🚀 Join request received
+[DEBUG][22:51:36] [VANIS] Join rejected - cooldown active
+[INFO ][22:51:37] [VANIS] 🚀 Join request received
+[DEBUG][22:51:37] [VANIS] Player has 1 cells, spawning dead cells for respawn
+[DEBUG][22:51:37] [DEAD] Spawned 1 dead cells from player
+[INFO ][22:51:37] [VANIS] ✅ Spawning player: "asdasd"
+[DEBUG][22:51:37] [JOIN] Vanis client spawning: asdasd
+[DEBUG][22:51:37] [JOIN] Sent spawn confirm packet to Vanis client
+[INFO ][22:51:37] [JOIN] Player spawned: "asdasd" with 1 cells
+[INFO ][22:51:37] [VANIS] 🚀 Join request received
+[DEBUG][22:51:37] [VANIS] Join rejected - cooldown active
+[INFO ][22:51:37] [VANIS] 🚀 Join request received
+[DEBUG][22:51:37] [VANIS] Join rejected - cooldown active
+[INFO ][22:51:37] [VANIS] 🚀 Join request received
+[DEBUG][22:51:37] [VANIS] Join rejected - cooldown active
+[INFO ][22:51:37] [VANIS] 🚀 Join request received
+[DEBUG][22:51:37] [VANIS] Join rejected - cooldown active
+[FATAL][22:51:38] TypeError: Cannot read properties of null (reading 'cells')
+    at PlayerCell.onRemove (C:\Users\user\.codeium\Best_yedek\CLient\js\fasfa\src\entity\PlayerCell.js:31:28)
+    at GameServer.removeNode (C:\Users\user\.codeium\Best_yedek\CLient\js\fasfa\src\GameServer.js:458:10)
+    at GameServer.mainLoop (C:\Users\user\.codeium\Best_yedek\CLient\js\fasfa\src\GameServer.js:751:26)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+[DEBUG][22:51:38] process.exit(1)
+=== Shutdown 2025-12-02T22-51-38-071 ===

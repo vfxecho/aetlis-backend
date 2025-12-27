@@ -1,0 +1,42 @@
+=== Started 2025-12-02T23-37-24-452 ===
+[INFO ][23:37:24] 0 IP ban records loaded.
+[WARN ][23:37:24] User account "Local Administrator" disabled
+[WARN ][23:37:24] User account "Local Moderator" disabled
+[WARN ][23:37:24] User account "Local User" disabled
+[INFO ][23:37:24] 0 user records loaded.
+[INFO ][23:37:24] 419 bad words loaded
+[INFO ][23:37:24] [CIRCULAR] Using configured worldRadius: 22500
+[INFO ][23:37:24] [1m[32mMultiOgar-Edited 1.6.1[37m - An open source multi-protocol ogar server[0m
+[INFO ][23:37:24] WebSocket: ws
+[INFO ][23:37:24] Started stats server on port 88
+[INFO ][23:37:24] Listening on port 8081
+[INFO ][23:37:24] Current game mode is Free For All
+[NONE ][23:37:29] CONNECTED 127.0.0.1:61206, origin: "http://localhost"
+[INFO ][23:37:29] [VANIS] 🎮 Handshake received (69, 420) - Client is using Vanis protocol
+[INFO ][23:37:29] [VANIS] 🌍 Initial world sent - CIRCULAR MAP, Radius: 22500
+[DEBUG][23:37:29] [VANIS] Sent 0 existing player infos to new client
+[DEBUG][23:37:29] [VANIS] Player info received - Name: "asdasd" Discord: none
+[DEBUG][23:37:29] [VANIS] Broadcast player info to all clients after receiving player info
+[INFO ][23:37:31] [VANIS] 🚀 Join request received
+[INFO ][23:37:31] [VANIS] ✅ Spawning player: "asdasd" Tag: ""
+[DEBUG][23:37:31] [JOIN] Vanis client spawning: asdasd
+[DEBUG][23:37:31] [JOIN] Broadcast player info to 1 clients
+[DEBUG][23:37:31] [JOIN] Sent spawn confirm packet to Vanis client
+[INFO ][23:37:31] [JOIN] Player spawned: "asdasd" with 1 cells
+[DEBUG][23:37:31] [BROADCAST] Player info sent for PID=1 Name=asdasd
+[NONE ][23:37:34] CONNECTED 127.0.0.1:63571, origin: "http://localhost"
+[INFO ][23:37:34] [VANIS] 🎮 Handshake received (69, 420) - Client is using Vanis protocol
+[INFO ][23:37:34] [VANIS] 🌍 Initial world sent - CIRCULAR MAP, Radius: 22500
+[DEBUG][23:37:34] [VANIS] Sent 1 existing player infos to new client
+[DEBUG][23:37:34] [VANIS] Player info received - Name: "asdasd" Discord: none
+[DEBUG][23:37:34] [VANIS] Broadcast player info to all clients after receiving player info
+[DEBUG][23:37:38] [VANIS] Player entered spectate mode
+[DEBUG][23:37:40] [SPLIT] Received split request: amount=6
+[DEBUG][23:37:40] [SPLIT] Received split request: amount=6
+[DEBUG][23:37:46] [VANIS] Chat: "dd"
+[DEBUG][23:37:46] [CHAT] Message from PID=2 sent to 2 clients (skipped 0 by tag)
+[DEBUG][23:37:49] [VANIS] Player entered spectate mode
+[DEBUG][23:37:49] [VANIS] Chat: "hey"
+[DEBUG][23:37:49] [CHAT] Message from PID=2 sent to 2 clients (skipped 0 by tag)
+[DEBUG][23:37:53] [VANIS] Chat: "hi"
+[DEBUG][23:37:53] [CHAT] Message from PID=1 sent to 2 clients (skipped 0 by tag)

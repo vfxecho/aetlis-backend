@@ -1,0 +1,80 @@
+=== Started 2025-12-02T23-32-49-060 ===
+[INFO ][23:32:49] 0 IP ban records loaded.
+[WARN ][23:32:49] User account "Local Administrator" disabled
+[WARN ][23:32:49] User account "Local Moderator" disabled
+[WARN ][23:32:49] User account "Local User" disabled
+[INFO ][23:32:49] 0 user records loaded.
+[INFO ][23:32:49] 419 bad words loaded
+[INFO ][23:32:49] [CIRCULAR] Using configured worldRadius: 22500
+[INFO ][23:32:49] [1m[32mMultiOgar-Edited 1.6.1[37m - An open source multi-protocol ogar server[0m
+[INFO ][23:32:49] WebSocket: ws
+[INFO ][23:32:49] Started stats server on port 88
+[INFO ][23:32:49] Listening on port 8081
+[INFO ][23:32:49] Current game mode is Free For All
+[NONE ][23:32:53] CONNECTED 127.0.0.1:54043, origin: "http://localhost"
+[INFO ][23:32:53] [VANIS] 🎮 Handshake received (69, 420) - Client is using Vanis protocol
+[INFO ][23:32:53] [VANIS] 🌍 Initial world sent - CIRCULAR MAP, Radius: 22500
+[DEBUG][23:32:53] [VANIS] Sent 0 existing player infos to new client
+[DEBUG][23:32:53] [VANIS] Player info received - Name: "asdasd" Discord: none
+[DEBUG][23:32:53] [VANIS] Broadcast player info to all clients after receiving player info
+[INFO ][23:32:55] [VANIS] 🚀 Join request received
+[INFO ][23:32:55] [VANIS] ✅ Spawning player: "asdasd" Tag: ""
+[DEBUG][23:32:55] [JOIN] Vanis client spawning: asdasd
+[DEBUG][23:32:55] [JOIN] Broadcast player info to 1 clients
+[DEBUG][23:32:55] [JOIN] Sent spawn confirm packet to Vanis client
+[INFO ][23:32:55] [JOIN] Player spawned: "asdasd" with 1 cells
+[DEBUG][23:32:55] [BROADCAST] Player info sent for PID=1 Name=asdasd
+[NONE ][23:32:57] CONNECTED 127.0.0.1:49786, origin: "http://localhost"
+[INFO ][23:32:57] [VANIS] 🎮 Handshake received (69, 420) - Client is using Vanis protocol
+[INFO ][23:32:57] [VANIS] 🌍 Initial world sent - CIRCULAR MAP, Radius: 22500
+[DEBUG][23:32:57] [VANIS] Sent 1 existing player infos to new client
+[DEBUG][23:32:57] [VANIS] Player info received - Name: "asdasd" Discord: none
+[DEBUG][23:32:57] [VANIS] Broadcast player info to all clients after receiving player info
+[INFO ][23:32:59] [VANIS] 🚀 Join request received
+[INFO ][23:32:59] [VANIS] ✅ Spawning player: "asdasd" Tag: ""
+[DEBUG][23:32:59] [JOIN] Vanis client spawning: asdasd
+[DEBUG][23:32:59] [JOIN] Broadcast player info to 2 clients
+[DEBUG][23:32:59] [JOIN] Sent spawn confirm packet to Vanis client
+[INFO ][23:32:59] [JOIN] Player spawned: "asdasd" with 1 cells
+[DEBUG][23:32:59] [BROADCAST] Player info sent for PID=2 Name=asdasd
+[DEBUG][23:33:01] [VANIS] Chat: "hey"
+[DEBUG][23:33:01] [CHAT] Message from PID=2 sent to 2 clients (skipped 0 by tag)
+[DEBUG][23:33:02] [VANIS] Chat: "as"
+[DEBUG][23:33:02] [CHAT] Message from PID=1 sent to 2 clients (skipped 0 by tag)
+[DEBUG][23:33:17] [VANIS] Chat: "asfdasf"
+[DEBUG][23:33:17] [CHAT] Message from PID=2 sent to 2 clients (skipped 0 by tag)
+[DEBUG][23:33:19] [VANIS] Chat: "sfasfasf"
+[DEBUG][23:33:19] [CHAT] Message from PID=1 sent to 2 clients (skipped 0 by tag)
+[DEBUG][23:33:20] [VANIS] Chat: "aga"
+[DEBUG][23:33:20] [CHAT] Message from PID=1 sent to 2 clients (skipped 0 by tag)
+[INFO ][23:36:39] [VANIS] 🚀 Join request received
+[DEBUG][23:36:39] [VANIS] Player has 1 cells, spawning dead cells for respawn
+[DEBUG][23:36:39] [DEAD] Spawned 1 dead cells from player
+[INFO ][23:36:39] [VANIS] ✅ Spawning player: "asdasd" Tag: ""
+[DEBUG][23:36:39] [JOIN] Vanis client spawning: asdasd
+[DEBUG][23:36:39] [JOIN] Broadcast player info to 2 clients
+[DEBUG][23:36:39] [JOIN] Sent spawn confirm packet to Vanis client
+[INFO ][23:36:39] [JOIN] Player spawned: "asdasd" with 1 cells
+[DEBUG][23:36:39] [BROADCAST] Player info sent for PID=1 Name=asdasd
+[DEBUG][23:36:41] [SPLIT] Received split request: amount=6
+[DEBUG][23:36:43] [SPLIT] Received split request: amount=6
+[DEBUG][23:36:44] [SPLIT] Received split request: amount=6
+[DEBUG][23:36:45] [SPLIT] Received split request: amount=6
+[DEBUG][23:36:46] [SPLIT] Received split request: amount=6
+[DEBUG][23:36:47] [SPLIT] Received split request: amount=6
+[DEBUG][23:36:47] [SPLIT] Received split request: amount=6
+[DEBUG][23:36:48] [SPLIT] Received split request: amount=6
+[DEBUG][23:36:48] [SPLIT] Received split request: amount=6
+[DEBUG][23:36:49] [SPLIT] Received split request: amount=6
+[DEBUG][23:36:49] [SPLIT] Received split request: amount=6
+[DEBUG][23:36:50] [SPLIT] Received split request: amount=6
+[DEBUG][23:36:50] [SPLIT] Received split request: amount=6
+[DEBUG][23:36:51] [SPLIT] Received split request: amount=6
+[DEBUG][23:36:52] [SPLIT] Received split request: amount=6
+[DEBUG][23:36:53] [SPLIT] Received split request: amount=6
+[DEBUG][23:36:53] [SPLIT] Received split request: amount=6
+[DEBUG][23:36:54] [SPLIT] Received split request: amount=6
+[DEBUG][23:36:54] [SPLIT] Received split request: amount=6
+[DEBUG][23:36:54] [SPLIT] Received split request: amount=6
+[DEBUG][23:36:55] [SPLIT] Received split request: amount=6
+[DEBUG][23:36:56] [SPLIT] Received split request: amount=6

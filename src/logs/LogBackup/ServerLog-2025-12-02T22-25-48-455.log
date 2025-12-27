@@ -1,0 +1,15 @@
+=== Started 2025-12-02T22-25-24-551 ===
+[INFO ][22:25:24] 0 IP ban records loaded.
+[WARN ][22:25:24] User account "Local Administrator" disabled
+[WARN ][22:25:24] User account "Local Moderator" disabled
+[WARN ][22:25:24] User account "Local User" disabled
+[INFO ][22:25:24] 0 user records loaded.
+[INFO ][22:25:24] 419 bad words loaded
+[INFO ][22:25:24] [1m[32mMultiOgar-Edited 1.6.1[37m - An open source multi-protocol ogar server[0m
+[INFO ][22:25:24] WebSocket: ws
+[ERROR][22:25:24] Stats Server: listen EADDRINUSE: address already in use :::88
+[ERROR][22:25:24] WebSocket: EADDRINUSE - listen EADDRINUSE: address already in use 0.0.0.0:8081
+[ERROR][22:25:24] Server could not bind to port 8081!
+[ERROR][22:25:24] Please close out of Skype or change 'serverPort' in gameserver.ini to a different number.
+[DEBUG][22:25:24] process.exit(1)
+=== Shutdown 2025-12-02T22-25-24-611 ===

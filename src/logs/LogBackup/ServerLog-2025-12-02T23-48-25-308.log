@@ -1,0 +1,31 @@
+=== Started 2025-12-02T23-46-47-332 ===
+[INFO ][23:46:47] 0 IP ban records loaded.
+[WARN ][23:46:47] User account "Local Administrator" disabled
+[WARN ][23:46:47] User account "Local Moderator" disabled
+[WARN ][23:46:47] User account "Local User" disabled
+[INFO ][23:46:47] 0 user records loaded.
+[INFO ][23:46:47] 419 bad words loaded
+[INFO ][23:46:47] [CIRCULAR] Using configured worldRadius: 22500
+[INFO ][23:46:47] [1m[32mMultiOgar-Edited 1.6.1[37m - An open source multi-protocol ogar server[0m
+[INFO ][23:46:47] WebSocket: ws
+[INFO ][23:46:47] Started stats server on port 88
+[INFO ][23:46:47] Listening on port 8081
+[INFO ][23:46:47] Current game mode is Free For All
+[NONE ][23:46:50] CONNECTED 127.0.0.1:61758, origin: "https://aetlis.io"
+[INFO ][23:46:50] [VANIS] 🎮 Handshake received (69, 420) - Client is using Vanis protocol
+[INFO ][23:46:50] [VANIS] 🌍 Initial world sent - CIRCULAR MAP, Radius: 22500
+[DEBUG][23:46:50] [VANIS] Sent 0 existing player infos to new client
+[DEBUG][23:46:50] [VANIS] Initial world sent to new client
+[NONE ][23:46:50] DISCONNECTED 127.0.0.1:61758, code: 1009, reason: "Spam", name: ""
+[NONE ][23:46:57] CONNECTED 127.0.0.1:61394, origin: "https://aetlis.io"
+[INFO ][23:46:57] [VANIS] 🎮 Handshake received (69, 420) - Client is using Vanis protocol
+[INFO ][23:46:57] [VANIS] 🌍 Initial world sent - CIRCULAR MAP, Radius: 22500
+[DEBUG][23:46:57] [VANIS] Sent 0 existing player infos to new client
+[DEBUG][23:46:57] [VANIS] Initial world sent to new client
+[NONE ][23:46:57] DISCONNECTED 127.0.0.1:61394, code: 1009, reason: "Spam", name: ""
+[NONE ][23:47:04] CONNECTED 127.0.0.1:59144, origin: "https://aetlis.io"
+[INFO ][23:47:04] [VANIS] 🎮 Handshake received (69, 420) - Client is using Vanis protocol
+[INFO ][23:47:04] [VANIS] 🌍 Initial world sent - CIRCULAR MAP, Radius: 22500
+[DEBUG][23:47:04] [VANIS] Sent 0 existing player infos to new client
+[DEBUG][23:47:04] [VANIS] Initial world sent to new client
+[NONE ][23:47:04] DISCONNECTED 127.0.0.1:59144, code: 1009, reason: "Spam", name: ""

@@ -1,0 +1,697 @@
+=== Started 2025-12-03T19-22-42-340 ===
+[INFO ][19:22:42] Loading config: C:\Users\user\.codeium\Best_yedek\CLient\js\fasfa\src\gameserver.ini
+[INFO ][19:22:42] Config loaded successfully from: C:\Users\user\.codeium\Best_yedek\CLient\js\fasfa\src\gameserver.ini
+[INFO ][19:22:42] 0 IP ban records loaded.
+[WARN ][19:22:42] User account "Local Administrator" disabled
+[WARN ][19:22:42] User account "Local Moderator" disabled
+[WARN ][19:22:42] User account "Local User" disabled
+[INFO ][19:22:42] 0 user records loaded.
+[INFO ][19:22:42] 419 bad words loaded
+[INFO ][19:22:42] [CIRCULAR] Using configured worldRadius: 22500
+[DEBUG][19:22:42] [SECURITY] Cleanup timer started (runs every 1 minute, expires after 5 minutes)
+[INFO ][19:22:42] [SECURITY] BypassSecurityManager initialized - Discord ID verification enabled
+[INFO ][19:22:42] [SECURITY] ✅ hCaptcha & Bypass Security initialized
+[DEBUG][19:22:42] [SECURITY] Allowed hostnames: aetlis.io, eu.aetlis.io
+[INFO ][19:22:42] [1m[32mMultiOgar-Edited 1.6.1[37m - An open source multi-protocol ogar server[0m
+[INFO ][19:22:42] WebSocket: ws
+[INFO ][19:22:42] Started stats server on port 88
+[INFO ][19:22:42] Listening on port 8081
+[INFO ][19:22:42] Current game mode is Free For All
+[INFO ][19:22:42] [JOIN] ========== joinGame() CALLED ==========
+[INFO ][19:22:42] [JOIN] Player ID=1 Name=chavi*-*lOW Context=manual
+[INFO ][19:22:42] [JOIN] PlayerType=REGULAR
+[INFO ][19:22:42] [JOIN] IsMinion=false
+[INFO ][19:22:42] [JOIN] Current cells=0
+[INFO ][19:22:42] [JOIN] OwnerPlayer=none
+[INFO ][19:22:42] [SPAWN-FLAG] PID=1 hadCellsBeforeRespawn=false shouldUseNearDeathSpawn=true
+[INFO ][19:22:42] [JOIN] Calling gameMode.onPlayerSpawn for PID=1
+[DEBUG][19:22:42] 
+========== 🎯 FFA.onPlayerSpawn CALLED ==========
+[DEBUG][19:22:42] [FFA-SPAWN] Player ID:
+[DEBUG][19:22:42] [FFA-SPAWN] Cells BEFORE spawn:
+[DEBUG][19:22:42] [FFA-SPAWN] Bot PID=1 using random spawn (bots never spawn near death/partner)
+[DEBUG][19:22:42] [FFA-SPAWN] 📍 Calling gameServer.spawnPlayer()...
+[DEBUG][19:22:42] [FFA-SPAWN] ✅ Cells AFTER spawn:
+[DEBUG][19:22:42] [FFA-SPAWN] New cells:
+[DEBUG][19:22:42]   - Cell[0]: ID=1 Type=Cell Size=1500
+[DEBUG][19:22:42] =======================================
+
+[INFO ][19:22:42] [JOIN] After onPlayerSpawn - cells=1
+[DEBUG][19:22:42] [ACTIVE-PLAY] Player 1 started active play
+[DEBUG][19:22:42] [JOIN] Broadcast player info to 1 clients
+[INFO ][19:22:42] [JOIN] ✅ Player spawned: "chavi*-*lOW" with 1 cells (context=manual)
+[INFO ][19:22:42] [JOIN] ========== joinGame() CALLED ==========
+[INFO ][19:22:42] [JOIN] Player ID=2 Name=TuGfaEnTanga Context=manual
+[INFO ][19:22:42] [JOIN] PlayerType=REGULAR
+[INFO ][19:22:42] [JOIN] IsMinion=false
+[INFO ][19:22:42] [JOIN] Current cells=0
+[INFO ][19:22:42] [JOIN] OwnerPlayer=none
+[INFO ][19:22:42] [SPAWN-FLAG] PID=2 hadCellsBeforeRespawn=false shouldUseNearDeathSpawn=true
+[INFO ][19:22:42] [JOIN] Calling gameMode.onPlayerSpawn for PID=2
+[DEBUG][19:22:42] 
+========== 🎯 FFA.onPlayerSpawn CALLED ==========
+[DEBUG][19:22:42] [FFA-SPAWN] Player ID:
+[DEBUG][19:22:42] [FFA-SPAWN] Cells BEFORE spawn:
+[DEBUG][19:22:42] [FFA-SPAWN] Bot PID=2 using random spawn (bots never spawn near death/partner)
+[DEBUG][19:22:42] [FFA-SPAWN] 📍 Calling gameServer.spawnPlayer()...
+[DEBUG][19:22:42] [FFA-SPAWN] ✅ Cells AFTER spawn:
+[DEBUG][19:22:42] [FFA-SPAWN] New cells:
+[DEBUG][19:22:42]   - Cell[0]: ID=2 Type=Cell Size=1500
+[DEBUG][19:22:42] =======================================
+
+[INFO ][19:22:42] [JOIN] After onPlayerSpawn - cells=1
+[DEBUG][19:22:42] [ACTIVE-PLAY] Player 2 started active play
+[DEBUG][19:22:42] [JOIN] Broadcast player info to 2 clients
+[INFO ][19:22:42] [JOIN] ✅ Player spawned: "TuGfaEnTanga" with 1 cells (context=manual)
+[INFO ][19:22:42] [JOIN] ========== joinGame() CALLED ==========
+[INFO ][19:22:42] [JOIN] Player ID=3 Name=PRIMEZ-SV Context=manual
+[INFO ][19:22:42] [JOIN] PlayerType=REGULAR
+[INFO ][19:22:42] [JOIN] IsMinion=false
+[INFO ][19:22:42] [JOIN] Current cells=0
+[INFO ][19:22:42] [JOIN] OwnerPlayer=none
+[INFO ][19:22:42] [SPAWN-FLAG] PID=3 hadCellsBeforeRespawn=false shouldUseNearDeathSpawn=true
+[INFO ][19:22:42] [JOIN] Calling gameMode.onPlayerSpawn for PID=3
+[DEBUG][19:22:42] 
+========== 🎯 FFA.onPlayerSpawn CALLED ==========
+[DEBUG][19:22:42] [FFA-SPAWN] Player ID:
+[DEBUG][19:22:42] [FFA-SPAWN] Cells BEFORE spawn:
+[DEBUG][19:22:42] [FFA-SPAWN] Bot PID=3 using random spawn (bots never spawn near death/partner)
+[DEBUG][19:22:42] [FFA-SPAWN] 📍 Calling gameServer.spawnPlayer()...
+[DEBUG][19:22:42] [FFA-SPAWN] ✅ Cells AFTER spawn:
+[DEBUG][19:22:42] [FFA-SPAWN] New cells:
+[DEBUG][19:22:42]   - Cell[0]: ID=3 Type=Cell Size=1500
+[DEBUG][19:22:42] =======================================
+
+[INFO ][19:22:42] [JOIN] After onPlayerSpawn - cells=1
+[DEBUG][19:22:42] [ACTIVE-PLAY] Player 3 started active play
+[DEBUG][19:22:42] [JOIN] Broadcast player info to 3 clients
+[INFO ][19:22:42] [JOIN] ✅ Player spawned: "PRIMEZ-SV" with 1 cells (context=manual)
+[INFO ][19:22:42] [JOIN] ========== joinGame() CALLED ==========
+[INFO ][19:22:42] [JOIN] Player ID=4 Name=Jake Context=manual
+[INFO ][19:22:42] [JOIN] PlayerType=REGULAR
+[INFO ][19:22:42] [JOIN] IsMinion=false
+[INFO ][19:22:42] [JOIN] Current cells=0
+[INFO ][19:22:42] [JOIN] OwnerPlayer=none
+[INFO ][19:22:42] [SPAWN-FLAG] PID=4 hadCellsBeforeRespawn=false shouldUseNearDeathSpawn=true
+[INFO ][19:22:42] [JOIN] Calling gameMode.onPlayerSpawn for PID=4
+[DEBUG][19:22:42] 
+========== 🎯 FFA.onPlayerSpawn CALLED ==========
+[DEBUG][19:22:42] [FFA-SPAWN] Player ID:
+[DEBUG][19:22:42] [FFA-SPAWN] Cells BEFORE spawn:
+[DEBUG][19:22:42] [FFA-SPAWN] Bot PID=4 using random spawn (bots never spawn near death/partner)
+[DEBUG][19:22:42] [FFA-SPAWN] 📍 Calling gameServer.spawnPlayer()...
+[DEBUG][19:22:42] [FFA-SPAWN] ✅ Cells AFTER spawn:
+[DEBUG][19:22:42] [FFA-SPAWN] New cells:
+[DEBUG][19:22:42]   - Cell[0]: ID=4 Type=Cell Size=1500
+[DEBUG][19:22:42] =======================================
+
+[INFO ][19:22:42] [JOIN] After onPlayerSpawn - cells=1
+[DEBUG][19:22:42] [ACTIVE-PLAY] Player 4 started active play
+[DEBUG][19:22:42] [JOIN] Broadcast player info to 4 clients
+[INFO ][19:22:42] [JOIN] ✅ Player spawned: "Jake" with 1 cells (context=manual)
+[INFO ][19:22:42] [JOIN] ========== joinGame() CALLED ==========
+[INFO ][19:22:42] [JOIN] Player ID=5 Name=PrO TeaM ?:) Context=manual
+[INFO ][19:22:42] [JOIN] PlayerType=REGULAR
+[INFO ][19:22:42] [JOIN] IsMinion=false
+[INFO ][19:22:42] [JOIN] Current cells=0
+[INFO ][19:22:42] [JOIN] OwnerPlayer=none
+[INFO ][19:22:42] [SPAWN-FLAG] PID=5 hadCellsBeforeRespawn=false shouldUseNearDeathSpawn=true
+[INFO ][19:22:42] [JOIN] Calling gameMode.onPlayerSpawn for PID=5
+[DEBUG][19:22:42] 
+========== 🎯 FFA.onPlayerSpawn CALLED ==========
+[DEBUG][19:22:42] [FFA-SPAWN] Player ID:
+[DEBUG][19:22:42] [FFA-SPAWN] Cells BEFORE spawn:
+[DEBUG][19:22:42] [FFA-SPAWN] Bot PID=5 using random spawn (bots never spawn near death/partner)
+[DEBUG][19:22:42] [FFA-SPAWN] 📍 Calling gameServer.spawnPlayer()...
+[DEBUG][19:22:42] [FFA-SPAWN] ✅ Cells AFTER spawn:
+[DEBUG][19:22:42] [FFA-SPAWN] New cells:
+[DEBUG][19:22:42]   - Cell[0]: ID=5 Type=Cell Size=1500
+[DEBUG][19:22:42] =======================================
+
+[INFO ][19:22:42] [JOIN] After onPlayerSpawn - cells=1
+[DEBUG][19:22:42] [ACTIVE-PLAY] Player 5 started active play
+[DEBUG][19:22:42] [JOIN] Broadcast player info to 5 clients
+[INFO ][19:22:42] [JOIN] ✅ Player spawned: "PrO TeaM ?:)" with 1 cells (context=manual)
+[INFO ][19:22:42] Added 5 player bots
+[INFO ][19:22:42] Auto-restart disabled
+[NONE ][19:22:46] CONNECTED 127.0.0.1:59568, origin: "https://aetlis.io"
+[INFO ][19:22:46] [VANIS] 🎮 Handshake received (69, 420) - Awaiting hCaptcha verification
+[INFO ][19:22:46] [VANIS] 🌍 Initial world sent - CIRCULAR MAP, Radius: 22500
+[DEBUG][19:22:46] [VANIS] Sent 5 existing player infos to new client
+[DEBUG][19:22:46] [VANIS] Initial world sent
+[INFO ][19:22:46] [CAPTCHA] Token received (len=14) from 127.0.0.1
+[INFO ][19:22:46] [CAPTCHA] 🔐 Discord bypass requested - awaiting PlayerInfo with valid Discord token
+[DEBUG][19:22:46] [VANIS] Player info received - Name: "Mock" Discord: present
+[WARN ][19:22:47] [GAMESERVERS] API error 404: {"error":"Server not found","gameMode":"MultiOgar-Edited #1","region":"EU"}
+[DEBUG][19:22:47] [SECURITY] ✅ Bypass attempt allowed for Discord User ID: 707227552627949639 from IP: 127.0.0.1
+[INFO ][19:22:47] [CAPTCHA] ✅ Discord bypass verified with Discord ID: 707227552627949639
+[DEBUG][19:22:47] [SECURITY] ✅ Cached verified Discord User ID: 707227552627949639 (mad1echo)
+[INFO ][19:22:47] [SECURITY] ✅ Discord bypass successful for User ID: 707227552627949639 from IP: 127.0.0.1
+[DEBUG][19:22:47] [VANIS] Discord token set for player after bypass validation
+[DEBUG][19:22:47] [NAME-LOCK] ✅ Player is owner of locked name: Mock
+[DEBUG][19:22:47] [VANIS] Player info processed for PID=6
+[DEBUG][19:22:47] [XP] Discord name from API: mad1echo ID: 707227552627949639
+[INFO ][19:22:47] [ADMIN] 👑 Full Admin connected: mad1echo
+[DEBUG][19:22:47] [ADMIN] Admin level for mad1echo: 2
+[DEBUG][19:22:47] [XP] Loaded from API for player 6: Level 124 XP 1530974 NameColor: 8AFF66
+[DEBUG][19:22:47] [XP] Player data loaded for PID=6
+[DEBUG][19:22:47] [LOGIN-MSG] Sending "Logged in as mad1echo"
+[INFO ][19:22:47] [VANIS] 🚀 Join request received
+[DEBUG][19:22:47] [VANIS] Discord token set for player
+[DEBUG][19:22:47] [DUAL] Set dual nickname to: Mock for PID=6
+[DEBUG][19:22:47] [DUAL] Set dual skin URL for PID=6
+[DEBUG][19:22:48] [PREFERENCES] Remember ejecting ON for PID=6
+[INFO ][19:22:48] [DUAL] Minion control ENABLED for owner PID=6
+[DEBUG][19:22:48] [NAME-LOCK] ✅ Player is owner of locked name: Mock
+[DEBUG][19:22:48] [SPAWN-TARGET] Determining spawn target: ownerPID=6 isDualActive=false ownerCells=0 hasDual=false dualCells=0
+[INFO ][19:22:48] [SPAWN-TARGET] → MAIN (isDualActive=false) PID=6
+[INFO ][19:22:48] [VANIS-SPAWN] ========================================
+[INFO ][19:22:48] [VANIS-SPAWN] Target: MAIN PID=6
+[INFO ][19:22:48] [VANIS-SPAWN] Main PID=6 isDualActive=false
+[INFO ][19:22:48] [VANIS-SPAWN] HadCells=false Context=manual
+[INFO ][19:22:48] [VANIS-SPAWN] ========================================
+[INFO ][19:22:48] [VANIS] ✅ Spawning MAIN: PID=6 ClientName="Mock" HadCells=false
+[INFO ][19:22:48] [JOIN] ========== joinGame() CALLED ==========
+[INFO ][19:22:48] [JOIN] Player ID=6 Name=Mock Context=manual
+[INFO ][19:22:48] [JOIN] PlayerType=REGULAR
+[INFO ][19:22:48] [JOIN] IsMinion=false
+[INFO ][19:22:48] [JOIN] Current cells=0
+[INFO ][19:22:48] [JOIN] OwnerPlayer=none
+[INFO ][19:22:48] [SPAWN-FLAG] PID=6 hadCellsBeforeRespawn=false shouldUseNearDeathSpawn=true
+[DEBUG][19:22:48] [JOIN] Vanis client spawning: Mock
+[INFO ][19:22:48] [JOIN] Calling gameMode.onPlayerSpawn for PID=6
+[DEBUG][19:22:48] 
+========== 🎯 FFA.onPlayerSpawn CALLED ==========
+[DEBUG][19:22:48] [FFA-SPAWN] Player ID:
+[DEBUG][19:22:48] [FFA-SPAWN] Cells BEFORE spawn:
+[INFO ][19:22:48] [SPAWN-DECISION] PID=6 NOT using near-death spawn. Reasons: lastDeathPosition=false shouldUseNearDeathSpawn=true cells.length=0
+[DEBUG][19:22:48] [FFA-SPAWN] Player 6 using random spawn (no death position)
+[DEBUG][19:22:48] [FFA-SPAWN] 📍 Calling gameServer.spawnPlayer()...
+[DEBUG][19:22:48] [FFA-SPAWN] ✅ Cells AFTER spawn:
+[DEBUG][19:22:48] [FFA-SPAWN] New cells:
+[DEBUG][19:22:48]   - Cell[0]: ID=114 Type=Cell Size=1500
+[DEBUG][19:22:48] =======================================
+
+[INFO ][19:22:48] [JOIN] After onPlayerSpawn - cells=1
+[DEBUG][19:22:48] [ACTIVE-PLAY] Player 6 started active play
+[DEBUG][19:22:48] [JOIN] Broadcast player info to 6 clients
+[DEBUG][19:22:48] [JOIN] Sent spawn confirm packet to Vanis client
+[INFO ][19:22:48] [JOIN] ✅ Player spawned: "Mock" with 1 cells (context=manual)
+[DEBUG][19:22:48] [TAG] Refreshing all player info for correct tag isolation
+[DEBUG][19:22:48] [TAG] Refreshed 5 player infos for PID=6
+[DEBUG][19:22:48] [XP] Discord name from API: mad1echo ID: 707227552627949639
+[INFO ][19:22:48] [ADMIN] 👑 Full Admin connected: mad1echo
+[DEBUG][19:22:48] [ADMIN] Admin level for mad1echo: 2
+[DEBUG][19:22:48] [XP] Loaded from API for player 6: Level 124 XP 1530974 NameColor: 8AFF66
+[DEBUG][19:22:48] [XP] Player data loaded on join for PID=6
+[DEBUG][19:22:49] [DUAL] Set dual nickname to: Mock for PID=6
+[DEBUG][19:22:49] [DUAL] Set dual skin URL for PID=6
+[DEBUG][19:22:49] [DUAL] handleRequestCreateDual called (opcode 25)
+[INFO ][19:22:49] [DUAL] ========== CREATE DUAL PLAYER START ==========
+[INFO ][19:22:49] [DUAL] Owner PID=6 Name=Mock
+[INFO ][19:22:49] [DUAL] Owner cells=1
+[INFO ][19:22:49] [DUAL] Creating dual player for 6
+[INFO ][19:22:49] [DUAL] Calling joinGame for dual player PID=7
+[INFO ][19:22:49] [DUAL] Dual player name=Mock Skin=https://skins.aetlis.io/s/7vFh5g9
+[INFO ][19:22:49] [DUAL-IDENTITY] Applied dual identity: name="Mock" skin="custom"
+[INFO ][19:22:49] [JOIN] ========== joinGame() CALLED ==========
+[INFO ][19:22:49] [JOIN] Player ID=7 Name=Mock Context=dual_create
+[INFO ][19:22:49] [JOIN] PlayerType=DUAL_MINION
+[INFO ][19:22:49] [JOIN] IsMinion=true
+[INFO ][19:22:49] [JOIN] Current cells=0
+[INFO ][19:22:49] [JOIN] OwnerPlayer=6
+[DEBUG][19:22:49] [JOIN] Dual minion spawning: Mock
+[INFO ][19:22:49] [JOIN] Calling gameMode.onPlayerSpawn for PID=7
+[DEBUG][19:22:49] 
+========== 🎯 FFA.onPlayerSpawn CALLED ==========
+[DEBUG][19:22:49] [FFA-SPAWN] Player ID:
+[DEBUG][19:22:49] [FFA-SPAWN] Cells BEFORE spawn:
+[DEBUG][19:22:49] [FFA-SPAWN] Dual player PID=7 will spawn near owner PID=6
+[DEBUG][19:22:49] [FFA-SPAWN] ✅ Empty spot found after 3 attempts at (-6876,14703)
+[DEBUG][19:22:49] [FFA-SPAWN] 📍 Calling gameServer.spawnPlayer()...
+[DEBUG][19:22:49] [FFA-SPAWN] ✅ Cells AFTER spawn:
+[DEBUG][19:22:49] [FFA-SPAWN] New cells:
+[DEBUG][19:22:49]   - Cell[0]: ID=116 Type=Cell Size=1500
+[DEBUG][19:22:49] =======================================
+
+[INFO ][19:22:49] [JOIN] After onPlayerSpawn - cells=1
+[DEBUG][19:22:49] [JOIN] Broadcast player info to 6 clients
+[INFO ][19:22:49] [JOIN] ✅ Player spawned: "Mock" with 1 cells (context=dual_create)
+[INFO ][19:22:49] [DUAL] After joinGame - dual player cells=1
+[INFO ][19:22:49] [DUAL] Dual player socket added to clients list
+[INFO ][19:22:49] [DUAL] Dual player 7 created for owner 6
+[INFO ][19:22:49] [DUAL] Final dual player cells=1
+[INFO ][19:22:49] [DUAL] Sending dual player update packet to owner
+[INFO ][19:22:49] [DUAL] Broadcasting dual player info to all clients
+[INFO ][19:22:49] [DUAL] ========== CREATE DUAL PLAYER END ==========
+[DEBUG][19:22:49] [DUAL] handleSwitchMultibox called (opcode 23)
+[DEBUG][19:22:49] [DUAL] Switch request ignored - minion control mode is active for PID=6
+[DEBUG][19:22:49] [DUAL-MINION] 📦 Packet received opcode=40 (dual minion command)
+[DEBUG][19:22:49] [DUAL-MINION] 📨 Command received opcode=40 value=0
+[DEBUG][19:22:49] [DUAL-MINION] 🔍 Processing command=40 value=0 owner=PID=6 minionControlActive=true
+[DEBUG][19:22:49] [DUAL-MINION] ✅ Command 40 proceeding - owner PID=6 dual PID=7 dualCells=1
+[DEBUG][19:22:49] [DUAL-MINION] 📦 Packet received opcode=33 (dual minion command)
+[DEBUG][19:22:49] [DUAL-MINION] 📨 Command received opcode=33 value=0
+[DEBUG][19:22:49] [DUAL-MINION] 🔍 Processing command=33 value=0 owner=PID=6 minionControlActive=true
+[DEBUG][19:22:49] [DUAL-MINION] ✅ Command 33 proceeding - owner PID=6 dual PID=7 dualCells=1
+[DEBUG][19:22:50] [DUAL-MINION] 📦 Packet received opcode=33 (dual minion command)
+[DEBUG][19:22:50] [DUAL-MINION] 📨 Command received opcode=33 value=0
+[DEBUG][19:22:50] [DUAL-MINION] 🔍 Processing command=33 value=0 owner=PID=6 minionControlActive=true
+[DEBUG][19:22:50] [DUAL-MINION] ✅ Command 33 proceeding - owner PID=6 dual PID=7 dualCells=22
+[DEBUG][19:22:50] [DUAL-MINION] 📦 Packet received opcode=33 (dual minion command)
+[DEBUG][19:22:50] [DUAL-MINION] 📨 Command received opcode=33 value=0
+[DEBUG][19:22:50] [DUAL-MINION] 🔍 Processing command=33 value=0 owner=PID=6 minionControlActive=true
+[DEBUG][19:22:50] [DUAL-MINION] ✅ Command 33 proceeding - owner PID=6 dual PID=7 dualCells=36
+[DEBUG][19:22:52] [DUAL-MINION] 📦 Packet received opcode=33 (dual minion command)
+[DEBUG][19:22:52] [DUAL-MINION] 📨 Command received opcode=33 value=0
+[DEBUG][19:22:52] [DUAL-MINION] 🔍 Processing command=33 value=0 owner=PID=6 minionControlActive=true
+[DEBUG][19:22:52] [DUAL-MINION] ✅ Command 33 proceeding - owner PID=6 dual PID=7 dualCells=13
+[DEBUG][19:22:52] [DUAL-MINION] 📦 Packet received opcode=33 (dual minion command)
+[DEBUG][19:22:52] [DUAL-MINION] 📨 Command received opcode=33 value=0
+[DEBUG][19:22:52] [DUAL-MINION] 🔍 Processing command=33 value=0 owner=PID=6 minionControlActive=true
+[DEBUG][19:22:52] [DUAL-MINION] ✅ Command 33 proceeding - owner PID=6 dual PID=7 dualCells=11
+[DEBUG][19:22:52] [DUAL-MINION] 📦 Packet received opcode=44 (dual minion command)
+[DEBUG][19:22:52] [DUAL-MINION] 📨 Command received opcode=44 value=0
+[DEBUG][19:22:52] [DUAL-MINION] 🔍 Processing command=44 value=0 owner=PID=6 minionControlActive=true
+[DEBUG][19:22:52] [DUAL-MINION] ✅ Command 44 proceeding - owner PID=6 dual PID=7 dualCells=7
+[DEBUG][19:22:58] [AFK-DEBUG] Player 6 (Mock) no actions for 10 seconds (threshold: 40s)
+[NONE ][19:23:00] CONNECTED 127.0.0.1:54238, origin: "https://aetlis.io"
+[INFO ][19:23:00] [VANIS] 🎮 Handshake received (69, 420) - Awaiting hCaptcha verification
+[INFO ][19:23:00] [VANIS] 🌍 Initial world sent - CIRCULAR MAP, Radius: 22500
+[DEBUG][19:23:00] [VANIS] Sent 7 existing player infos to new client
+[DEBUG][19:23:00] [VANIS] Initial world sent
+[INFO ][19:23:00] [CAPTCHA] Token received (len=14) from 127.0.0.1
+[INFO ][19:23:00] [CAPTCHA] 🔐 Discord bypass requested - awaiting PlayerInfo with valid Discord token
+[DEBUG][19:23:00] [VANIS] Player info received - Name: "rs6" Discord: present
+[WARN ][19:23:00] [GAMESERVERS] API error 404: {"error":"Server not found","gameMode":"MultiOgar-Edited #1","region":"EU"}
+[WARN ][19:23:00] [DISCORD-API] ⚠️ Token valid but no Discord User ID returned
+[INFO ][19:23:00] [SECURITY] ❌ Bypass rejected - No Discord User ID provided from IP: 127.0.0.1
+[WARN ][19:23:00] [CAPTCHA] ❌ Discord bypass blocked: MISSING_DISCORD_ID
+[NONE ][19:23:00] DISCONNECTED 127.0.0.1:54238, code: 1008, reason: "Too many attempts. Try again later.", name: ""
+[WARN ][19:23:00] [GAMESERVERS] API error 404: {"error":"Server not found","gameMode":"MultiOgar-Edited #1","region":"EU"}
+[DEBUG][19:23:06] [DEAD] Spawned 1 dead cells from player
+[INFO ][19:23:06] [DISCONNECT] Cleaning up dual player 7 for owner 6
+[DEBUG][19:23:06] [DEAD] Spawned 7 dead cells from player
+[NONE ][19:23:06] DISCONNECTED 127.0.0.1:59568, code: 1005, reason: "", name: "Mock"
+[DEBUG][19:23:06] [ACTIVE-PLAY] Player 6 stopped active play. Duration: 18168ms. Total: 0 minutes
+[WARN ][19:23:06] [GAMESERVERS] API error 404: {"error":"Server not found","gameMode":"MultiOgar-Edited #1","region":"EU"}
+[NONE ][19:23:06] CONNECTED 127.0.0.1:50106, origin: "https://aetlis.io"
+[INFO ][19:23:06] [VANIS] 🎮 Handshake received (69, 420) - Awaiting hCaptcha verification
+[INFO ][19:23:06] [VANIS] 🌍 Initial world sent - CIRCULAR MAP, Radius: 22500
+[DEBUG][19:23:06] [VANIS] Sent 5 existing player infos to new client
+[DEBUG][19:23:06] [VANIS] Initial world sent
+[INFO ][19:23:06] [CAPTCHA] Token received (len=14) from 127.0.0.1
+[INFO ][19:23:06] [CAPTCHA] 🔐 Discord bypass requested - awaiting PlayerInfo with valid Discord token
+[DEBUG][19:23:06] [VANIS] Player info received - Name: "Mock" Discord: present
+[WARN ][19:23:06] [GAMESERVERS] API error 404: {"error":"Server not found","gameMode":"MultiOgar-Edited #1","region":"EU"}
+[DEBUG][19:23:06] [SECURITY] ✅ Bypass attempt allowed for Discord User ID: 707227552627949639 from IP: 127.0.0.1
+[INFO ][19:23:06] [CAPTCHA] ✅ Discord bypass verified with Discord ID: 707227552627949639
+[DEBUG][19:23:06] [SECURITY] ✅ Cached verified Discord User ID: 707227552627949639 (mad1echo)
+[INFO ][19:23:06] [SECURITY] ✅ Discord bypass successful for User ID: 707227552627949639 from IP: 127.0.0.1
+[DEBUG][19:23:06] [VANIS] Discord token set for player after bypass validation
+[DEBUG][19:23:06] [NAME-LOCK] ✅ Player is owner of locked name: Mock
+[DEBUG][19:23:06] [VANIS] Player info processed for PID=9
+[DEBUG][19:23:06] [XP] Discord name from API: mad1echo ID: 707227552627949639
+[INFO ][19:23:06] [ADMIN] 👑 Full Admin connected: mad1echo
+[DEBUG][19:23:06] [ADMIN] Admin level for mad1echo: 2
+[DEBUG][19:23:06] [XP] Loaded from API for player 9: Level 124 XP 1530974 NameColor: 8AFF66
+[DEBUG][19:23:06] [XP] Player data loaded for PID=9
+[DEBUG][19:23:06] [LOGIN-MSG] Sending "Logged in as mad1echo"
+[NONE ][19:23:07] DISCONNECTED 127.0.0.1:50106, code: 1005, reason: "", name: "Mock"
+[WARN ][19:23:07] [GAMESERVERS] API error 404: {"error":"Server not found","gameMode":"MultiOgar-Edited #1","region":"EU"}
+[NONE ][19:23:07] CONNECTED 127.0.0.1:65514, origin: "https://aetlis.io"
+[INFO ][19:23:07] [VANIS] 🎮 Handshake received (69, 420) - Awaiting hCaptcha verification
+[INFO ][19:23:07] [VANIS] 🌍 Initial world sent - CIRCULAR MAP, Radius: 22500
+[DEBUG][19:23:07] [VANIS] Sent 5 existing player infos to new client
+[DEBUG][19:23:07] [VANIS] Initial world sent
+[INFO ][19:23:07] [CAPTCHA] Token received (len=14) from 127.0.0.1
+[INFO ][19:23:07] [CAPTCHA] 🔐 Discord bypass requested - awaiting PlayerInfo with valid Discord token
+[DEBUG][19:23:07] [VANIS] Player info received - Name: "Mock" Discord: present
+[WARN ][19:23:07] [GAMESERVERS] API error 404: {"error":"Server not found","gameMode":"MultiOgar-Edited #1","region":"EU"}
+[DEBUG][19:23:07] [SECURITY] ✅ Bypass attempt allowed for Discord User ID: 707227552627949639 from IP: 127.0.0.1
+[INFO ][19:23:07] [CAPTCHA] ✅ Discord bypass verified with Discord ID: 707227552627949639
+[DEBUG][19:23:07] [SECURITY] ✅ Cached verified Discord User ID: 707227552627949639 (mad1echo)
+[INFO ][19:23:07] [SECURITY] ✅ Discord bypass successful for User ID: 707227552627949639 from IP: 127.0.0.1
+[DEBUG][19:23:07] [VANIS] Discord token set for player after bypass validation
+[DEBUG][19:23:07] [NAME-LOCK] ✅ Player is owner of locked name: Mock
+[DEBUG][19:23:07] [VANIS] Player info processed for PID=10
+[DEBUG][19:23:08] [XP] Discord name from API: mad1echo ID: 707227552627949639
+[INFO ][19:23:08] [ADMIN] 👑 Full Admin connected: mad1echo
+[DEBUG][19:23:08] [ADMIN] Admin level for mad1echo: 2
+[DEBUG][19:23:08] [XP] Loaded from API for player 10: Level 124 XP 1530974 NameColor: 8AFF66
+[DEBUG][19:23:08] [XP] Player data loaded for PID=10
+[DEBUG][19:23:08] [LOGIN-MSG] Sending "Logged in as mad1echo"
+[NONE ][19:23:08] DISCONNECTED 127.0.0.1:65514, code: 1005, reason: "", name: "Mock"
+[WARN ][19:23:08] [GAMESERVERS] API error 404: {"error":"Server not found","gameMode":"MultiOgar-Edited #1","region":"EU"}
+[NONE ][19:23:08] CONNECTED 127.0.0.1:57036, origin: "https://aetlis.io"
+[INFO ][19:23:08] [VANIS] 🎮 Handshake received (69, 420) - Awaiting hCaptcha verification
+[INFO ][19:23:08] [VANIS] 🌍 Initial world sent - CIRCULAR MAP, Radius: 22500
+[DEBUG][19:23:08] [VANIS] Sent 5 existing player infos to new client
+[DEBUG][19:23:08] [VANIS] Initial world sent
+[INFO ][19:23:08] [CAPTCHA] Token received (len=14) from 127.0.0.1
+[INFO ][19:23:08] [CAPTCHA] 🔐 Discord bypass requested - awaiting PlayerInfo with valid Discord token
+[DEBUG][19:23:08] [VANIS] Player info received - Name: "Mock" Discord: present
+[WARN ][19:23:08] [GAMESERVERS] API error 404: {"error":"Server not found","gameMode":"MultiOgar-Edited #1","region":"EU"}
+[DEBUG][19:23:08] [SECURITY] ✅ Bypass attempt allowed for Discord User ID: 707227552627949639 from IP: 127.0.0.1
+[INFO ][19:23:08] [CAPTCHA] ✅ Discord bypass verified with Discord ID: 707227552627949639
+[DEBUG][19:23:08] [SECURITY] ✅ Cached verified Discord User ID: 707227552627949639 (mad1echo)
+[INFO ][19:23:08] [SECURITY] ✅ Discord bypass successful for User ID: 707227552627949639 from IP: 127.0.0.1
+[DEBUG][19:23:08] [VANIS] Discord token set for player after bypass validation
+[DEBUG][19:23:08] [NAME-LOCK] ✅ Player is owner of locked name: Mock
+[DEBUG][19:23:08] [VANIS] Player info processed for PID=11
+[DEBUG][19:23:08] [XP] Discord name from API: mad1echo ID: 707227552627949639
+[INFO ][19:23:08] [ADMIN] 👑 Full Admin connected: mad1echo
+[DEBUG][19:23:08] [ADMIN] Admin level for mad1echo: 2
+[DEBUG][19:23:08] [XP] Loaded from API for player 11: Level 124 XP 1530974 NameColor: 8AFF66
+[DEBUG][19:23:08] [XP] Player data loaded for PID=11
+[DEBUG][19:23:08] [LOGIN-MSG] Sending "Logged in as mad1echo"
+[NONE ][19:23:08] DISCONNECTED 127.0.0.1:57036, code: 1005, reason: "", name: "Mock"
+[WARN ][19:23:09] [GAMESERVERS] API error 404: {"error":"Server not found","gameMode":"MultiOgar-Edited #1","region":"EU"}
+[NONE ][19:23:09] CONNECTED 127.0.0.1:54705, origin: "https://aetlis.io"
+[INFO ][19:23:09] [VANIS] 🎮 Handshake received (69, 420) - Awaiting hCaptcha verification
+[INFO ][19:23:09] [VANIS] 🌍 Initial world sent - CIRCULAR MAP, Radius: 22500
+[DEBUG][19:23:09] [VANIS] Sent 5 existing player infos to new client
+[DEBUG][19:23:09] [VANIS] Initial world sent
+[INFO ][19:23:09] [CAPTCHA] Token received (len=14) from 127.0.0.1
+[INFO ][19:23:09] [CAPTCHA] 🔐 Discord bypass requested - awaiting PlayerInfo with valid Discord token
+[DEBUG][19:23:09] [VANIS] Player info received - Name: "Mock" Discord: present
+[WARN ][19:23:09] [GAMESERVERS] API error 404: {"error":"Server not found","gameMode":"MultiOgar-Edited #1","region":"EU"}
+[DEBUG][19:23:09] [SECURITY] ✅ Bypass attempt allowed for Discord User ID: 707227552627949639 from IP: 127.0.0.1
+[INFO ][19:23:09] [CAPTCHA] ✅ Discord bypass verified with Discord ID: 707227552627949639
+[DEBUG][19:23:09] [SECURITY] ✅ Cached verified Discord User ID: 707227552627949639 (mad1echo)
+[INFO ][19:23:09] [SECURITY] ✅ Discord bypass successful for User ID: 707227552627949639 from IP: 127.0.0.1
+[DEBUG][19:23:09] [VANIS] Discord token set for player after bypass validation
+[DEBUG][19:23:09] [NAME-LOCK] ✅ Player is owner of locked name: Mock
+[DEBUG][19:23:09] [VANIS] Player info processed for PID=12
+[NONE ][19:23:09] DISCONNECTED 127.0.0.1:54705, code: 1005, reason: "", name: "Mock"
+[DEBUG][19:23:09] [XP] Discord name from API: mad1echo ID: 707227552627949639
+[INFO ][19:23:09] [ADMIN] 👑 Full Admin connected: mad1echo
+[DEBUG][19:23:09] [ADMIN] Admin level for mad1echo: 2
+[DEBUG][19:23:09] [XP] Loaded from API for player 12: Level 124 XP 1530974 NameColor: 8AFF66
+[DEBUG][19:23:09] [XP] Player data loaded for PID=12
+[DEBUG][19:23:09] [LOGIN-MSG] Sending "Logged in as mad1echo"
+[WARN ][19:23:09] [GAMESERVERS] API error 404: {"error":"Server not found","gameMode":"MultiOgar-Edited #1","region":"EU"}
+[NONE ][19:23:09] CONNECTED 127.0.0.1:56132, origin: "https://aetlis.io"
+[INFO ][19:23:09] [VANIS] 🎮 Handshake received (69, 420) - Awaiting hCaptcha verification
+[INFO ][19:23:09] [VANIS] 🌍 Initial world sent - CIRCULAR MAP, Radius: 22500
+[DEBUG][19:23:09] [VANIS] Sent 5 existing player infos to new client
+[DEBUG][19:23:09] [VANIS] Initial world sent
+[INFO ][19:23:09] [CAPTCHA] Token received (len=14) from 127.0.0.1
+[INFO ][19:23:09] [CAPTCHA] 🔐 Discord bypass requested - awaiting PlayerInfo with valid Discord token
+[DEBUG][19:23:09] [VANIS] Player info received - Name: "Mock" Discord: present
+[WARN ][19:23:10] [GAMESERVERS] API error 404: {"error":"Server not found","gameMode":"MultiOgar-Edited #1","region":"EU"}
+[DEBUG][19:23:10] [SECURITY] ✅ Bypass attempt allowed for Discord User ID: 707227552627949639 from IP: 127.0.0.1
+[INFO ][19:23:10] [CAPTCHA] ✅ Discord bypass verified with Discord ID: 707227552627949639
+[DEBUG][19:23:10] [SECURITY] ✅ Cached verified Discord User ID: 707227552627949639 (mad1echo)
+[INFO ][19:23:10] [SECURITY] ✅ Discord bypass successful for User ID: 707227552627949639 from IP: 127.0.0.1
+[DEBUG][19:23:10] [VANIS] Discord token set for player after bypass validation
+[DEBUG][19:23:10] [NAME-LOCK] ✅ Player is owner of locked name: Mock
+[DEBUG][19:23:10] [VANIS] Player info processed for PID=13
+[NONE ][19:23:10] DISCONNECTED 127.0.0.1:56132, code: 1005, reason: "", name: "Mock"
+[DEBUG][19:23:10] [XP] Discord name from API: mad1echo ID: 707227552627949639
+[INFO ][19:23:10] [ADMIN] 👑 Full Admin connected: mad1echo
+[DEBUG][19:23:10] [ADMIN] Admin level for mad1echo: 2
+[DEBUG][19:23:10] [XP] Loaded from API for player 13: Level 124 XP 1530974 NameColor: 8AFF66
+[DEBUG][19:23:10] [XP] Player data loaded for PID=13
+[DEBUG][19:23:10] [LOGIN-MSG] Sending "Logged in as mad1echo"
+[WARN ][19:23:10] [GAMESERVERS] API error 404: {"error":"Server not found","gameMode":"MultiOgar-Edited #1","region":"EU"}
+[NONE ][19:23:10] CONNECTED 127.0.0.1:54975, origin: "https://aetlis.io"
+[INFO ][19:23:10] [VANIS] 🎮 Handshake received (69, 420) - Awaiting hCaptcha verification
+[INFO ][19:23:10] [VANIS] 🌍 Initial world sent - CIRCULAR MAP, Radius: 22500
+[DEBUG][19:23:10] [VANIS] Sent 5 existing player infos to new client
+[DEBUG][19:23:10] [VANIS] Initial world sent
+[INFO ][19:23:10] [CAPTCHA] Token received (len=14) from 127.0.0.1
+[INFO ][19:23:10] [CAPTCHA] 🔐 Discord bypass requested - awaiting PlayerInfo with valid Discord token
+[DEBUG][19:23:10] [VANIS] Player info received - Name: "Mock" Discord: present
+[WARN ][19:23:10] [GAMESERVERS] API error 404: {"error":"Server not found","gameMode":"MultiOgar-Edited #1","region":"EU"}
+[DEBUG][19:23:10] [SECURITY] ✅ Bypass attempt allowed for Discord User ID: 707227552627949639 from IP: 127.0.0.1
+[INFO ][19:23:10] [CAPTCHA] ✅ Discord bypass verified with Discord ID: 707227552627949639
+[DEBUG][19:23:10] [SECURITY] ✅ Cached verified Discord User ID: 707227552627949639 (mad1echo)
+[INFO ][19:23:10] [SECURITY] ✅ Discord bypass successful for User ID: 707227552627949639 from IP: 127.0.0.1
+[DEBUG][19:23:10] [VANIS] Discord token set for player after bypass validation
+[DEBUG][19:23:10] [NAME-LOCK] ✅ Player is owner of locked name: Mock
+[DEBUG][19:23:10] [VANIS] Player info processed for PID=14
+[NONE ][19:23:10] DISCONNECTED 127.0.0.1:54975, code: 1005, reason: "", name: "Mock"
+[DEBUG][19:23:10] [XP] Discord name from API: mad1echo ID: 707227552627949639
+[INFO ][19:23:10] [ADMIN] 👑 Full Admin connected: mad1echo
+[DEBUG][19:23:10] [ADMIN] Admin level for mad1echo: 2
+[DEBUG][19:23:10] [XP] Loaded from API for player 14: Level 124 XP 1530974 NameColor: 8AFF66
+[DEBUG][19:23:10] [XP] Player data loaded for PID=14
+[DEBUG][19:23:10] [LOGIN-MSG] Sending "Logged in as mad1echo"
+[WARN ][19:23:10] [GAMESERVERS] API error 404: {"error":"Server not found","gameMode":"MultiOgar-Edited #1","region":"EU"}
+[NONE ][19:23:11] CONNECTED 127.0.0.1:56925, origin: "https://aetlis.io"
+[INFO ][19:23:11] [VANIS] 🎮 Handshake received (69, 420) - Awaiting hCaptcha verification
+[INFO ][19:23:11] [VANIS] 🌍 Initial world sent - CIRCULAR MAP, Radius: 22500
+[DEBUG][19:23:11] [VANIS] Sent 5 existing player infos to new client
+[DEBUG][19:23:11] [VANIS] Initial world sent
+[INFO ][19:23:11] [CAPTCHA] Token received (len=14) from 127.0.0.1
+[INFO ][19:23:11] [CAPTCHA] 🔐 Discord bypass requested - awaiting PlayerInfo with valid Discord token
+[DEBUG][19:23:11] [VANIS] Player info received - Name: "Mock" Discord: present
+[WARN ][19:23:11] [GAMESERVERS] API error 404: {"error":"Server not found","gameMode":"MultiOgar-Edited #1","region":"EU"}
+[DEBUG][19:23:11] [SECURITY] ✅ Bypass attempt allowed for Discord User ID: 707227552627949639 from IP: 127.0.0.1
+[INFO ][19:23:11] [CAPTCHA] ✅ Discord bypass verified with Discord ID: 707227552627949639
+[DEBUG][19:23:11] [SECURITY] ✅ Cached verified Discord User ID: 707227552627949639 (mad1echo)
+[INFO ][19:23:11] [SECURITY] ✅ Discord bypass successful for User ID: 707227552627949639 from IP: 127.0.0.1
+[DEBUG][19:23:11] [VANIS] Discord token set for player after bypass validation
+[DEBUG][19:23:11] [NAME-LOCK] ✅ Player is owner of locked name: Mock
+[DEBUG][19:23:11] [VANIS] Player info processed for PID=15
+[NONE ][19:23:11] DISCONNECTED 127.0.0.1:56925, code: 1005, reason: "", name: "Mock"
+[DEBUG][19:23:11] [XP] Discord name from API: mad1echo ID: 707227552627949639
+[INFO ][19:23:11] [ADMIN] 👑 Full Admin connected: mad1echo
+[DEBUG][19:23:11] [ADMIN] Admin level for mad1echo: 2
+[DEBUG][19:23:11] [XP] Loaded from API for player 15: Level 124 XP 1530974 NameColor: 8AFF66
+[DEBUG][19:23:11] [XP] Player data loaded for PID=15
+[DEBUG][19:23:11] [LOGIN-MSG] Sending "Logged in as mad1echo"
+[WARN ][19:23:11] [GAMESERVERS] API error 404: {"error":"Server not found","gameMode":"MultiOgar-Edited #1","region":"EU"}
+[NONE ][19:23:11] CONNECTED 127.0.0.1:60826, origin: "https://aetlis.io"
+[INFO ][19:23:11] [VANIS] 🎮 Handshake received (69, 420) - Awaiting hCaptcha verification
+[INFO ][19:23:11] [VANIS] 🌍 Initial world sent - CIRCULAR MAP, Radius: 22500
+[DEBUG][19:23:11] [VANIS] Sent 5 existing player infos to new client
+[DEBUG][19:23:11] [VANIS] Initial world sent
+[INFO ][19:23:11] [CAPTCHA] Token received (len=14) from 127.0.0.1
+[INFO ][19:23:11] [CAPTCHA] 🔐 Discord bypass requested - awaiting PlayerInfo with valid Discord token
+[DEBUG][19:23:11] [VANIS] Player info received - Name: "Mock" Discord: present
+[WARN ][19:23:11] [GAMESERVERS] API error 404: {"error":"Server not found","gameMode":"MultiOgar-Edited #1","region":"EU"}
+[DEBUG][19:23:11] [SECURITY] ✅ Bypass attempt allowed for Discord User ID: 707227552627949639 from IP: 127.0.0.1
+[INFO ][19:23:11] [CAPTCHA] ✅ Discord bypass verified with Discord ID: 707227552627949639
+[DEBUG][19:23:11] [SECURITY] ✅ Cached verified Discord User ID: 707227552627949639 (mad1echo)
+[INFO ][19:23:11] [SECURITY] ✅ Discord bypass successful for User ID: 707227552627949639 from IP: 127.0.0.1
+[DEBUG][19:23:11] [VANIS] Discord token set for player after bypass validation
+[DEBUG][19:23:11] [NAME-LOCK] ✅ Player is owner of locked name: Mock
+[DEBUG][19:23:11] [VANIS] Player info processed for PID=16
+[DEBUG][19:23:12] [XP] Discord name from API: mad1echo ID: 707227552627949639
+[INFO ][19:23:12] [ADMIN] 👑 Full Admin connected: mad1echo
+[DEBUG][19:23:12] [ADMIN] Admin level for mad1echo: 2
+[DEBUG][19:23:12] [XP] Loaded from API for player 16: Level 124 XP 1530974 NameColor: 8AFF66
+[DEBUG][19:23:12] [XP] Player data loaded for PID=16
+[DEBUG][19:23:12] [LOGIN-MSG] Sending "Logged in as mad1echo"
+[NONE ][19:23:12] DISCONNECTED 127.0.0.1:60826, code: 1005, reason: "", name: "Mock"
+[WARN ][19:23:12] [GAMESERVERS] API error 404: {"error":"Server not found","gameMode":"MultiOgar-Edited #1","region":"EU"}
+[NONE ][19:23:12] CONNECTED 127.0.0.1:64465, origin: "https://aetlis.io"
+[INFO ][19:23:12] [VANIS] 🎮 Handshake received (69, 420) - Awaiting hCaptcha verification
+[INFO ][19:23:12] [VANIS] 🌍 Initial world sent - CIRCULAR MAP, Radius: 22500
+[DEBUG][19:23:12] [VANIS] Sent 5 existing player infos to new client
+[DEBUG][19:23:12] [VANIS] Initial world sent
+[INFO ][19:23:12] [CAPTCHA] Token received (len=14) from 127.0.0.1
+[INFO ][19:23:12] [CAPTCHA] 🔐 Discord bypass requested - awaiting PlayerInfo with valid Discord token
+[DEBUG][19:23:12] [VANIS] Player info received - Name: "Mock" Discord: present
+[WARN ][19:23:12] [GAMESERVERS] API error 404: {"error":"Server not found","gameMode":"MultiOgar-Edited #1","region":"EU"}
+[DEBUG][19:23:12] [SECURITY] ✅ Bypass attempt allowed for Discord User ID: 707227552627949639 from IP: 127.0.0.1
+[INFO ][19:23:12] [CAPTCHA] ✅ Discord bypass verified with Discord ID: 707227552627949639
+[DEBUG][19:23:12] [SECURITY] ✅ Cached verified Discord User ID: 707227552627949639 (mad1echo)
+[INFO ][19:23:12] [SECURITY] ✅ Discord bypass successful for User ID: 707227552627949639 from IP: 127.0.0.1
+[DEBUG][19:23:12] [VANIS] Discord token set for player after bypass validation
+[DEBUG][19:23:12] [NAME-LOCK] ✅ Player is owner of locked name: Mock
+[DEBUG][19:23:12] [VANIS] Player info processed for PID=17
+[DEBUG][19:23:12] [XP] Discord name from API: mad1echo ID: 707227552627949639
+[INFO ][19:23:12] [ADMIN] 👑 Full Admin connected: mad1echo
+[DEBUG][19:23:12] [ADMIN] Admin level for mad1echo: 2
+[DEBUG][19:23:12] [XP] Loaded from API for player 17: Level 124 XP 1530974 NameColor: 8AFF66
+[DEBUG][19:23:12] [XP] Player data loaded for PID=17
+[DEBUG][19:23:12] [LOGIN-MSG] Sending "Logged in as mad1echo"
+[INFO ][19:23:13] [VANIS] 🚀 Join request received
+[DEBUG][19:23:13] [VANIS] Discord token set for player
+[DEBUG][19:23:13] [DUAL] Set dual nickname to: Mock for PID=17
+[DEBUG][19:23:13] [DUAL] Set dual skin URL for PID=17
+[DEBUG][19:23:13] [PREFERENCES] Remember ejecting ON for PID=17
+[INFO ][19:23:13] [DUAL] Minion control ENABLED for owner PID=17
+[DEBUG][19:23:13] [NAME-LOCK] ✅ Player is owner of locked name: Mock
+[DEBUG][19:23:13] [SPAWN-TARGET] Determining spawn target: ownerPID=17 isDualActive=false ownerCells=0 hasDual=false dualCells=0
+[INFO ][19:23:13] [SPAWN-TARGET] → MAIN (isDualActive=false) PID=17
+[INFO ][19:23:13] [VANIS-SPAWN] ========================================
+[INFO ][19:23:13] [VANIS-SPAWN] Target: MAIN PID=17
+[INFO ][19:23:13] [VANIS-SPAWN] Main PID=17 isDualActive=false
+[INFO ][19:23:13] [VANIS-SPAWN] HadCells=false Context=manual
+[INFO ][19:23:13] [VANIS-SPAWN] ========================================
+[INFO ][19:23:13] [VANIS] ✅ Spawning MAIN: PID=17 ClientName="Mock" HadCells=false
+[INFO ][19:23:13] [JOIN] ========== joinGame() CALLED ==========
+[INFO ][19:23:13] [JOIN] Player ID=17 Name=Mock Context=manual
+[INFO ][19:23:13] [JOIN] PlayerType=REGULAR
+[INFO ][19:23:13] [JOIN] IsMinion=false
+[INFO ][19:23:13] [JOIN] Current cells=0
+[INFO ][19:23:13] [JOIN] OwnerPlayer=none
+[INFO ][19:23:13] [SPAWN-FLAG] PID=17 hadCellsBeforeRespawn=false shouldUseNearDeathSpawn=true
+[DEBUG][19:23:13] [JOIN] Vanis client spawning: Mock
+[INFO ][19:23:13] [JOIN] Calling gameMode.onPlayerSpawn for PID=17
+[DEBUG][19:23:13] 
+========== 🎯 FFA.onPlayerSpawn CALLED ==========
+[DEBUG][19:23:13] [FFA-SPAWN] Player ID:
+[DEBUG][19:23:13] [FFA-SPAWN] Cells BEFORE spawn:
+[INFO ][19:23:13] [SPAWN-DECISION] PID=17 NOT using near-death spawn. Reasons: lastDeathPosition=false shouldUseNearDeathSpawn=true cells.length=0
+[DEBUG][19:23:13] [FFA-SPAWN] Player 17 using random spawn (no death position)
+[DEBUG][19:23:13] [FFA-SPAWN] 📍 Calling gameServer.spawnPlayer()...
+[DEBUG][19:23:13] [FFA-SPAWN] ✅ Cells AFTER spawn:
+[DEBUG][19:23:13] [FFA-SPAWN] New cells:
+[DEBUG][19:23:13]   - Cell[0]: ID=567 Type=Cell Size=1500
+[DEBUG][19:23:13] =======================================
+
+[INFO ][19:23:13] [JOIN] After onPlayerSpawn - cells=1
+[DEBUG][19:23:13] [ACTIVE-PLAY] Player 17 started active play
+[DEBUG][19:23:13] [JOIN] Broadcast player info to 6 clients
+[DEBUG][19:23:13] [JOIN] Sent spawn confirm packet to Vanis client
+[INFO ][19:23:13] [JOIN] ✅ Player spawned: "Mock" with 1 cells (context=manual)
+[DEBUG][19:23:13] [TAG] Refreshing all player info for correct tag isolation
+[DEBUG][19:23:13] [TAG] Refreshed 5 player infos for PID=17
+[DEBUG][19:23:13] [XP] Discord name from API: mad1echo ID: 707227552627949639
+[INFO ][19:23:13] [ADMIN] 👑 Full Admin connected: mad1echo
+[DEBUG][19:23:13] [ADMIN] Admin level for mad1echo: 2
+[DEBUG][19:23:13] [XP] Loaded from API for player 17: Level 124 XP 1530974 NameColor: 8AFF66
+[DEBUG][19:23:13] [XP] Player data loaded on join for PID=17
+[DEBUG][19:23:13] [DUAL] Set dual nickname to: Mock for PID=17
+[DEBUG][19:23:13] [DUAL] Set dual skin URL for PID=17
+[DEBUG][19:23:13] [DUAL] handleRequestCreateDual called (opcode 25)
+[INFO ][19:23:13] [DUAL] ========== CREATE DUAL PLAYER START ==========
+[INFO ][19:23:13] [DUAL] Owner PID=17 Name=Mock
+[INFO ][19:23:13] [DUAL] Owner cells=1
+[INFO ][19:23:13] [DUAL] Creating dual player for 17
+[INFO ][19:23:13] [DUAL] Calling joinGame for dual player PID=18
+[INFO ][19:23:13] [DUAL] Dual player name=Mock Skin=https://skins.aetlis.io/s/7vFh5g9
+[INFO ][19:23:13] [DUAL-IDENTITY] Applied dual identity: name="Mock" skin="custom"
+[INFO ][19:23:13] [JOIN] ========== joinGame() CALLED ==========
+[INFO ][19:23:13] [JOIN] Player ID=18 Name=Mock Context=dual_create
+[INFO ][19:23:13] [JOIN] PlayerType=DUAL_MINION
+[INFO ][19:23:13] [JOIN] IsMinion=true
+[INFO ][19:23:13] [JOIN] Current cells=0
+[INFO ][19:23:13] [JOIN] OwnerPlayer=17
+[DEBUG][19:23:13] [JOIN] Dual minion spawning: Mock
+[INFO ][19:23:13] [JOIN] Calling gameMode.onPlayerSpawn for PID=18
+[DEBUG][19:23:13] 
+========== 🎯 FFA.onPlayerSpawn CALLED ==========
+[DEBUG][19:23:13] [FFA-SPAWN] Player ID:
+[DEBUG][19:23:13] [FFA-SPAWN] Cells BEFORE spawn:
+[DEBUG][19:23:13] [FFA-SPAWN] Dual player PID=18 will spawn near owner PID=17
+[DEBUG][19:23:13] [FFA-SPAWN] ✅ Empty spot found after 5 attempts at (-2931,6661)
+[DEBUG][19:23:13] [FFA-SPAWN] 📍 Calling gameServer.spawnPlayer()...
+[DEBUG][19:23:13] [FFA-SPAWN] ✅ Cells AFTER spawn:
+[DEBUG][19:23:13] [FFA-SPAWN] New cells:
+[DEBUG][19:23:13]   - Cell[0]: ID=568 Type=Cell Size=1500
+[DEBUG][19:23:13] =======================================
+
+[INFO ][19:23:13] [JOIN] After onPlayerSpawn - cells=1
+[DEBUG][19:23:13] [JOIN] Broadcast player info to 6 clients
+[INFO ][19:23:13] [JOIN] ✅ Player spawned: "Mock" with 1 cells (context=dual_create)
+[INFO ][19:23:13] [DUAL] After joinGame - dual player cells=1
+[INFO ][19:23:13] [DUAL] Dual player socket added to clients list
+[INFO ][19:23:13] [DUAL] Dual player 18 created for owner 17
+[INFO ][19:23:13] [DUAL] Final dual player cells=1
+[INFO ][19:23:13] [DUAL] Sending dual player update packet to owner
+[INFO ][19:23:13] [DUAL] Broadcasting dual player info to all clients
+[INFO ][19:23:13] [DUAL] ========== CREATE DUAL PLAYER END ==========
+[DEBUG][19:23:13] [DUAL] handleSwitchMultibox called (opcode 23)
+[DEBUG][19:23:13] [DUAL] Switch request ignored - minion control mode is active for PID=17
+[DEBUG][19:23:13] [DUAL-MINION] 📦 Packet received opcode=40 (dual minion command)
+[DEBUG][19:23:13] [DUAL-MINION] 📨 Command received opcode=40 value=0
+[DEBUG][19:23:13] [DUAL-MINION] 🔍 Processing command=40 value=0 owner=PID=17 minionControlActive=true
+[DEBUG][19:23:13] [DUAL-MINION] ✅ Command 40 proceeding - owner PID=17 dual PID=18 dualCells=1
+[DEBUG][19:23:13] [DUAL-MINION] 📦 Packet received opcode=33 (dual minion command)
+[DEBUG][19:23:13] [DUAL-MINION] 📨 Command received opcode=33 value=0
+[DEBUG][19:23:13] [DUAL-MINION] 🔍 Processing command=33 value=0 owner=PID=17 minionControlActive=true
+[DEBUG][19:23:13] [DUAL-MINION] ✅ Command 33 proceeding - owner PID=17 dual PID=18 dualCells=1
+[DEBUG][19:23:14] [DUAL-MINION] 📦 Packet received opcode=44 (dual minion command)
+[DEBUG][19:23:14] [DUAL-MINION] 📨 Command received opcode=44 value=0
+[DEBUG][19:23:14] [DUAL-MINION] 🔍 Processing command=44 value=0 owner=PID=17 minionControlActive=true
+[DEBUG][19:23:14] [DUAL-MINION] ✅ Command 44 proceeding - owner PID=17 dual PID=18 dualCells=11
+[NONE ][19:23:19] CONNECTED 127.0.0.1:63064, origin: "https://aetlis.io"
+[INFO ][19:23:19] [VANIS] 🎮 Handshake received (69, 420) - Awaiting hCaptcha verification
+[INFO ][19:23:19] [VANIS] 🌍 Initial world sent - CIRCULAR MAP, Radius: 22500
+[DEBUG][19:23:19] [VANIS] Sent 7 existing player infos to new client
+[DEBUG][19:23:19] [VANIS] Initial world sent
+[INFO ][19:23:19] [CAPTCHA] Token received (len=14) from 127.0.0.1
+[INFO ][19:23:19] [CAPTCHA] 🔐 Discord bypass requested - awaiting PlayerInfo with valid Discord token
+[DEBUG][19:23:19] [VANIS] Player info received - Name: "rs6" Discord: present
+[WARN ][19:23:19] [GAMESERVERS] API error 404: {"error":"Server not found","gameMode":"MultiOgar-Edited #1","region":"EU"}
+[WARN ][19:23:19] [DISCORD-API] ⚠️ Token valid but no Discord User ID returned
+[INFO ][19:23:19] [SECURITY] ❌ Bypass rejected - No Discord User ID provided from IP: 127.0.0.1
+[WARN ][19:23:19] [CAPTCHA] ❌ Discord bypass blocked: MISSING_DISCORD_ID
+[NONE ][19:23:19] DISCONNECTED 127.0.0.1:63064, code: 1008, reason: "Too many attempts. Try again later.", name: ""
+[WARN ][19:23:19] [GAMESERVERS] API error 404: {"error":"Server not found","gameMode":"MultiOgar-Edited #1","region":"EU"}
+[NONE ][19:23:21] CONNECTED 127.0.0.1:58377, origin: "https://aetlis.io"
+[INFO ][19:23:21] [VANIS] 🎮 Handshake received (69, 420) - Awaiting hCaptcha verification
+[INFO ][19:23:21] [VANIS] 🌍 Initial world sent - CIRCULAR MAP, Radius: 22500
+[DEBUG][19:23:21] [VANIS] Sent 7 existing player infos to new client
+[DEBUG][19:23:21] [VANIS] Initial world sent
+[INFO ][19:23:21] [CAPTCHA] Token received (len=14) from 127.0.0.1
+[INFO ][19:23:21] [CAPTCHA] 🔐 Discord bypass requested - awaiting PlayerInfo with valid Discord token
+[DEBUG][19:23:21] [VANIS] Player info received - Name: "rs6" Discord: present
+[WARN ][19:23:21] [GAMESERVERS] API error 404: {"error":"Server not found","gameMode":"MultiOgar-Edited #1","region":"EU"}
+[WARN ][19:23:21] [DISCORD-API] ⚠️ Token valid but no Discord User ID returned
+[INFO ][19:23:21] [SECURITY] ❌ Bypass rejected - No Discord User ID provided from IP: 127.0.0.1
+[WARN ][19:23:21] [CAPTCHA] ❌ Discord bypass blocked: MISSING_DISCORD_ID
+[NONE ][19:23:21] DISCONNECTED 127.0.0.1:58377, code: 1008, reason: "Too many attempts. Try again later.", name: ""
+[WARN ][19:23:22] [GAMESERVERS] API error 404: {"error":"Server not found","gameMode":"MultiOgar-Edited #1","region":"EU"}
+[DEBUG][19:23:23] [AFK-DEBUG] Player 17 (Mock) no actions for 10 seconds (threshold: 40s)
+[DEBUG][19:23:33] [AFK-DEBUG] Player 17 (Mock) no actions for 20 seconds (threshold: 40s)
+[NONE ][19:23:35] CONNECTED 127.0.0.1:54142, origin: "https://aetlis.io"
+[INFO ][19:23:35] [VANIS] 🎮 Handshake received (69, 420) - Awaiting hCaptcha verification
+[INFO ][19:23:35] [VANIS] 🌍 Initial world sent - CIRCULAR MAP, Radius: 22500
+[DEBUG][19:23:35] [VANIS] Sent 7 existing player infos to new client
+[DEBUG][19:23:35] [VANIS] Initial world sent
+[DEBUG][19:23:35] [VANIS] PlayerInfo rejected - captcha not verified
+[WARN ][19:23:35] [GAMESERVERS] API error 404: {"error":"Server not found","gameMode":"MultiOgar-Edited #1","region":"EU"}
+[INFO ][19:23:42] [AUTO-RESPAWN] ⚡ Scheduling for player 18 (isDual: true hasLivingPartner: true)
+[DEBUG][19:23:42] [AUTO-RESPAWN] ⚡ _scheduleImmediateAutoRespawn() called for Player
+[DEBUG][19:23:43] [AUTO-RESPAWN] ⏰ Timer triggered for Player
+[DEBUG][19:23:43] [AUTO-RESPAWN] ✅ Player
+[INFO ][19:23:43] [DUAL-IDENTITY] Applied dual identity: name="Mock" skin="custom"
+[INFO ][19:23:43] [JOIN] ========== joinGame() CALLED ==========
+[INFO ][19:23:43] [JOIN] Player ID=18 Name=Mock Context=auto_dual
+[INFO ][19:23:43] [JOIN] PlayerType=DUAL_MINION
+[INFO ][19:23:43] [JOIN] IsMinion=true
+[INFO ][19:23:43] [JOIN] Current cells=0
+[INFO ][19:23:43] [JOIN] OwnerPlayer=17
+[DEBUG][19:23:43] [JOIN] Dual minion spawning: Mock
+[INFO ][19:23:43] [JOIN] Calling gameMode.onPlayerSpawn for PID=18
+[DEBUG][19:23:43] 
+========== 🎯 FFA.onPlayerSpawn CALLED ==========
+[DEBUG][19:23:43] [FFA-SPAWN] Player ID:
+[DEBUG][19:23:43] [FFA-SPAWN] Cells BEFORE spawn:
+[DEBUG][19:23:43] [FFA-SPAWN] Dual player PID=18 will spawn near owner PID=17
+[DEBUG][19:23:43] [FFA-SPAWN] ✅ Empty spot found after 1 attempts at (155,4418)
+[DEBUG][19:23:43] [FFA-SPAWN] 📍 Calling gameServer.spawnPlayer()...
+[DEBUG][19:23:43] [FFA-SPAWN] ✅ Cells AFTER spawn:
+[DEBUG][19:23:43] [FFA-SPAWN] New cells:
+[DEBUG][19:23:43]   - Cell[0]: ID=785 Type=Cell Size=1500
+[DEBUG][19:23:43] =======================================
+
+[INFO ][19:23:43] [JOIN] After onPlayerSpawn - cells=1
+[DEBUG][19:23:43] [JOIN] Broadcast player info to 8 clients
+[INFO ][19:23:43] [JOIN] ✅ Player spawned: "Mock" with 1 cells (context=auto_dual)
+[DEBUG][19:23:43] [AFK-DEBUG] Player 17 (Mock) no actions for 30 seconds (threshold: 40s)
+[INFO ][19:23:47] [VANIS] 🚀 Join request received
+[WARN ][19:23:47] [VANIS] Join rejected - captcha not verified and no Discord token
+[DEBUG][19:23:47] [DUAL] Set dual nickname to:  for PID=21
+[DEBUG][19:23:47] [DUAL] Cleared dual skin URL for PID=21
+[NONE ][19:23:47] DISCONNECTED 127.0.0.1:54142, code: 1008, reason: "You are not smart enough to join this server.", name: ""
+[WARN ][19:23:47] [GAMESERVERS] API error 404: {"error":"Server not found","gameMode":"MultiOgar-Edited #1","region":"EU"}
+[DEBUG][19:23:53] [AFK-DEBUG] Player 17 (Mock) no actions for 40 seconds (threshold: 40s)
+[DEBUG][19:23:53] [AFK] ═══════════════════════════════════════
+[DEBUG][19:23:53] [AFK] KICKING PLAYER 17 (Mock)
+[DEBUG][19:23:53] [AFK] Reason: No actions (split/eject) for 40 seconds
+[DEBUG][19:23:53] [AFK] Is playing: true | Cells: 1
+[DEBUG][19:23:53] [AFK] ═══════════════════════════════════════
+[DEBUG][19:23:53] [DEAD] Spawned 1 dead cells from player
+[INFO ][19:23:53] [DISCONNECT] Cleaning up dual player 18 for owner 17
+[DEBUG][19:23:53] [DEAD] Spawned 1 dead cells from player
+[NONE ][19:23:53] DISCONNECTED 127.0.0.1:64465, code: 1000, reason: "AFK", name: "Mock"
+[DEBUG][19:23:53] [ACTIVE-PLAY] Player 17 stopped active play. Duration: 40132ms. Total: 0 minutes
+[WARN ][19:23:53] [GAMESERVERS] API error 404: {"error":"Server not found","gameMode":"MultiOgar-Edited #1","region":"EU"}

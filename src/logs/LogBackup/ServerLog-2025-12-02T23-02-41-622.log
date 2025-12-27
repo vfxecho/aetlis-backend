@@ -1,0 +1,22 @@
+=== Started 2025-12-02T23-02-05-902 ===
+[INFO ][23:02:05] 0 IP ban records loaded.
+[WARN ][23:02:05] User account "Local Administrator" disabled
+[WARN ][23:02:05] User account "Local Moderator" disabled
+[WARN ][23:02:05] User account "Local User" disabled
+[INFO ][23:02:05] 0 user records loaded.
+[INFO ][23:02:05] 419 bad words loaded
+[INFO ][23:02:05] [1m[32mMultiOgar-Edited 1.6.1[37m - An open source multi-protocol ogar server[0m
+[INFO ][23:02:05] WebSocket: ws
+[INFO ][23:02:05] Started stats server on port 88
+[INFO ][23:02:05] Listening on port 8081
+[INFO ][23:02:05] Current game mode is Free For All
+[NONE ][23:02:08] CONNECTED 127.0.0.1:53954, origin: "http://localhost"
+[INFO ][23:02:08] [VANIS] 🎮 Handshake received (69, 420) - Client is using Vanis protocol
+[INFO ][23:02:08] [VANIS] 🌍 Initial world sent - Border: 45000x45000
+[DEBUG][23:02:08] [VANIS] Player info received - Name: "asdasd"
+[INFO ][23:02:10] [VANIS] 🚀 Join request received
+[INFO ][23:02:10] [VANIS] ✅ Spawning player: "asdasd"
+[DEBUG][23:02:10] [JOIN] Vanis client spawning: asdasd
+[DEBUG][23:02:10] [JOIN] Sent spawn confirm packet to Vanis client
+[INFO ][23:02:10] [JOIN] Player spawned: "asdasd" with 1 cells
+[DEBUG][23:02:17] [SPLIT] Received split request: amount=3

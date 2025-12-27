@@ -1,0 +1,46 @@
+=== Started 2025-12-03T02-20-09-809 ===
+[INFO ][02:20:09] 0 IP ban records loaded.
+[WARN ][02:20:09] User account "Local Administrator" disabled
+[WARN ][02:20:09] User account "Local Moderator" disabled
+[WARN ][02:20:09] User account "Local User" disabled
+[INFO ][02:20:09] 0 user records loaded.
+[INFO ][02:20:09] 419 bad words loaded
+[INFO ][02:20:09] [CIRCULAR] Using configured worldRadius: 22500
+[INFO ][02:20:09] [1m[32mMultiOgar-Edited 1.6.1[37m - An open source multi-protocol ogar server[0m
+[INFO ][02:20:09] WebSocket: ws
+[INFO ][02:20:09] Started stats server on port 88
+[INFO ][02:20:09] Listening on port 8081
+[INFO ][02:20:09] Current game mode is Free For All
+[NONE ][02:20:12] CONNECTED 127.0.0.1:50158, origin: "https://aetlis.io"
+[INFO ][02:20:12] [VANIS] 🎮 Handshake received (69, 420) - Client is using Vanis protocol
+[INFO ][02:20:12] [VANIS] 🌍 Initial world sent - CIRCULAR MAP, Radius: 22500
+[DEBUG][02:20:12] [VANIS] Sent 0 existing player infos to new client
+[DEBUG][02:20:12] [VANIS] Initial world sent to new client
+[DEBUG][02:20:12] [VANIS] Player info received - Name: "Mock" Discord: present
+[DEBUG][02:20:12] [VANIS] Discord token set for player
+[DEBUG][02:20:12] [VANIS] Broadcast player info to all clients after receiving player info
+[INFO ][02:20:12] [VANIS] 🚀 Join request received
+[DEBUG][02:20:12] [VANIS] Discord token set for player
+[INFO ][02:20:12] [VANIS] ✅ Spawning player: "Mock" Tag: ""
+[DEBUG][02:20:12] [JOIN] Vanis client spawning: Mock
+[DEBUG][02:20:12] [JOIN] Broadcast player info to 1 clients
+[DEBUG][02:20:12] [JOIN] Sent spawn confirm packet to Vanis client
+[INFO ][02:20:12] [JOIN] Player spawned: "Mock" with 1 cells
+[DEBUG][02:20:12] [BROADCAST] Player info sent for PID=1 Name=Mock
+[INFO ][02:20:12] [VANIS] 🚀 Join request received
+[DEBUG][02:20:12] [VANIS] Join rejected - cooldown active
+[DEBUG][02:20:17] [SPLIT] Received split request: amount=7
+[DEBUG][02:20:19] [SPLIT] Received split request: amount=7
+[DEBUG][02:20:21] [SPLIT] Received split request: amount=7
+[DEBUG][02:20:22] [SPLIT] Received split request: amount=7
+[DEBUG][02:20:22] [SPLIT] Received split request: amount=7
+[DEBUG][02:20:23] [SPLIT] Received split request: amount=7
+[DEBUG][02:20:23] [SPLIT] Received split request: amount=7
+[DEBUG][02:20:24] [SPLIT] Received split request: amount=7
+[DEBUG][02:20:25] [SPLIT] Received split request: amount=7
+[DEBUG][02:20:25] [SPLIT] Received split request: amount=7
+[DEBUG][02:20:26] [SPLIT] Received split request: amount=7
+[DEBUG][02:20:27] [XP] Player 1 leveled up to 2!
+[DEBUG][02:20:28] [SPLIT] Received split request: amount=7
+[DEBUG][02:20:29] [SPLIT] Received split request: amount=7
+[DEBUG][02:20:30] [SPLIT] Received split request: amount=7

@@ -1,0 +1,323 @@
+=== Started 2025-12-02T22-37-45-572 ===
+[INFO ][22:37:45] 0 IP ban records loaded.
+[WARN ][22:37:45] User account "Local Administrator" disabled
+[WARN ][22:37:45] User account "Local Moderator" disabled
+[WARN ][22:37:45] User account "Local User" disabled
+[INFO ][22:37:45] 0 user records loaded.
+[INFO ][22:37:45] 419 bad words loaded
+[INFO ][22:37:45] [1m[32mMultiOgar-Edited 1.6.1[37m - An open source multi-protocol ogar server[0m
+[INFO ][22:37:45] WebSocket: ws
+[INFO ][22:37:45] Started stats server on port 88
+[INFO ][22:37:45] Listening on port 8081
+[INFO ][22:37:45] Current game mode is Free For All
+[NONE ][22:37:49] CONNECTED 127.0.0.1:64421, origin: "http://localhost"
+[INFO ][22:37:49] [VANIS] 🎮 Handshake received (69, 420) - Client is using Vanis protocol
+[INFO ][22:37:49] [VANIS] 🌍 Initial world sent - Border: 45000x45000
+[DEBUG][22:37:50] [VANIS] Player info received - Name: "asdasd"
+[NONE ][22:37:52] DISCONNECTED 127.0.0.1:64421, code: 1005, reason: "", name: "asdasd"
+[NONE ][22:37:55] CONNECTED 127.0.0.1:60706, origin: "http://localhost"
+[INFO ][22:37:55] [VANIS] 🎮 Handshake received (69, 420) - Client is using Vanis protocol
+[INFO ][22:37:55] [VANIS] 🌍 Initial world sent - Border: 45000x45000
+[DEBUG][22:37:55] [VANIS] Player info received - Name: "asdasd"
+[INFO ][22:37:59] [VANIS] 🚀 Join request received
+[INFO ][22:37:59] [VANIS] ✅ Spawning player: "asdasd"
+[DEBUG][22:37:59] [JOIN] Vanis client spawning: asdasd
+[DEBUG][22:37:59] [JOIN] Sent spawn confirm packet to Vanis client
+[INFO ][22:37:59] [JOIN] Player spawned: "asdasd" with 1 cells
+[DEBUG][22:37:59] [SPLIT] Received split request: amount=6
+[DEBUG][22:37:59] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:02] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:03] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:03] [SPLIT] Received split request: amount=3
+[DEBUG][22:38:03] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:04] [SPLIT] Received split request: amount=3
+[DEBUG][22:38:04] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:05] [SPLIT] Received split request: amount=3
+[DEBUG][22:38:05] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:06] [SPLIT] Received split request: amount=3
+[DEBUG][22:38:06] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:06] [SPLIT] Received split request: amount=3
+[DEBUG][22:38:06] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:07] [SPLIT] Received split request: amount=3
+[DEBUG][22:38:07] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:10] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:10] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:11] [SPLIT] Received split request: amount=3
+[DEBUG][22:38:11] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:11] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:11] [SPLIT] Received split request: amount=3
+[DEBUG][22:38:12] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:12] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:12] [SPLIT] Received split request: amount=3
+[DEBUG][22:38:12] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:13] [SPLIT] Received split request: amount=3
+[DEBUG][22:38:13] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:14] [SPLIT] Received split request: amount=3
+[DEBUG][22:38:14] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:15] [SPLIT] Received split request: amount=3
+[DEBUG][22:38:15] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:16] [SPLIT] Received split request: amount=3
+[DEBUG][22:38:16] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:16] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:17] [SPLIT] Received split request: amount=3
+[DEBUG][22:38:17] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:17] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:18] [SPLIT] Received split request: amount=3
+[DEBUG][22:38:18] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:18] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:18] [SPLIT] Received split request: amount=3
+[DEBUG][22:38:19] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:19] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:19] [SPLIT] Received split request: amount=3
+[DEBUG][22:38:19] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:20] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:20] [SPLIT] Received split request: amount=2
+[DEBUG][22:38:21] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:21] [SPLIT] Received split request: amount=3
+[DEBUG][22:38:22] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:22] [SPLIT] Received split request: amount=2
+[DEBUG][22:38:23] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:24] [SPLIT] Received split request: amount=3
+[DEBUG][22:38:24] [SPLIT] Received split request: amount=1
+[DEBUG][22:38:24] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:25] [SPLIT] Received split request: amount=1
+[DEBUG][22:38:25] [SPLIT] Received split request: amount=3
+[DEBUG][22:38:25] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:25] [SPLIT] Received split request: amount=1
+[DEBUG][22:38:26] [SPLIT] Received split request: amount=3
+[DEBUG][22:38:26] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:26] [SPLIT] Received split request: amount=1
+[DEBUG][22:38:27] [SPLIT] Received split request: amount=3
+[DEBUG][22:38:27] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:27] [SPLIT] Received split request: amount=1
+[DEBUG][22:38:27] [SPLIT] Received split request: amount=3
+[DEBUG][22:38:28] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:28] [SPLIT] Received split request: amount=1
+[DEBUG][22:38:28] [SPLIT] Received split request: amount=3
+[DEBUG][22:38:28] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:29] [SPLIT] Received split request: amount=1
+[DEBUG][22:38:29] [SPLIT] Received split request: amount=3
+[DEBUG][22:38:29] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:30] [SPLIT] Received split request: amount=1
+[DEBUG][22:38:30] [SPLIT] Received split request: amount=3
+[DEBUG][22:38:30] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:31] [SPLIT] Received split request: amount=1
+[DEBUG][22:38:31] [SPLIT] Received split request: amount=3
+[DEBUG][22:38:31] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:32] [SPLIT] Received split request: amount=1
+[DEBUG][22:38:32] [SPLIT] Received split request: amount=3
+[DEBUG][22:38:32] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:35] [SPLIT] Received split request: amount=1
+[DEBUG][22:38:35] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:35] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:36] [SPLIT] Received split request: amount=2
+[DEBUG][22:38:36] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:38] [SPLIT] Received split request: amount=1
+[DEBUG][22:38:38] [SPLIT] Received split request: amount=3
+[DEBUG][22:38:38] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:39] [SPLIT] Received split request: amount=2
+[DEBUG][22:38:39] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:40] [SPLIT] Received split request: amount=2
+[DEBUG][22:38:40] [SPLIT] Received split request: amount=6
+[DEBUG][22:38:51] [SPLIT] Received split request: amount=1
+[DEBUG][22:38:51] [SPLIT] Received split request: amount=6
+[DEBUG][22:39:50] [SPLIT] Received split request: amount=6
+[DEBUG][22:39:50] [SPLIT] Received split request: amount=6
+[DEBUG][22:39:50] [SPLIT] Received split request: amount=6
+[DEBUG][22:39:51] [SPLIT] Received split request: amount=3
+[DEBUG][22:39:51] [SPLIT] Received split request: amount=6
+[DEBUG][22:39:51] [SPLIT] Received split request: amount=6
+[DEBUG][22:39:52] [SPLIT] Received split request: amount=3
+[DEBUG][22:39:52] [SPLIT] Received split request: amount=6
+[DEBUG][22:39:52] [SPLIT] Received split request: amount=6
+[DEBUG][22:39:53] [SPLIT] Received split request: amount=3
+[DEBUG][22:39:53] [SPLIT] Received split request: amount=6
+[DEBUG][22:39:53] [SPLIT] Received split request: amount=6
+[DEBUG][22:39:53] [SPLIT] Received split request: amount=3
+[DEBUG][22:39:54] [SPLIT] Received split request: amount=6
+[DEBUG][22:39:54] [SPLIT] Received split request: amount=6
+[DEBUG][22:39:54] [SPLIT] Received split request: amount=3
+[DEBUG][22:39:54] [SPLIT] Received split request: amount=6
+[DEBUG][22:39:55] [SPLIT] Received split request: amount=6
+[DEBUG][22:39:55] [SPLIT] Received split request: amount=3
+[DEBUG][22:39:55] [SPLIT] Received split request: amount=6
+[DEBUG][22:39:57] [VANIS] Chat: "asa"
+[DEBUG][22:39:58] [SPLIT] Received split request: amount=3
+[DEBUG][22:39:58] [SPLIT] Received split request: amount=6
+[DEBUG][22:39:58] [SPLIT] Received split request: amount=6
+[DEBUG][22:39:58] [SPLIT] Received split request: amount=3
+[DEBUG][22:39:59] [SPLIT] Received split request: amount=6
+[DEBUG][22:39:59] [SPLIT] Received split request: amount=6
+[DEBUG][22:39:59] [SPLIT] Received split request: amount=3
+[DEBUG][22:39:59] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:01] [SPLIT] Received split request: amount=1
+[DEBUG][22:40:01] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:01] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:02] [SPLIT] Received split request: amount=2
+[DEBUG][22:40:03] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:17] [VANIS] Chat: "asfasf"
+[DEBUG][22:40:18] [SPLIT] Received split request: amount=1
+[DEBUG][22:40:19] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:19] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:21] [SPLIT] Received split request: amount=3
+[DEBUG][22:40:21] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:22] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:22] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:23] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:23] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:24] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:25] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:27] [SPLIT] Received split request: amount=3
+[DEBUG][22:40:27] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:27] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:28] [SPLIT] Received split request: amount=3
+[DEBUG][22:40:28] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:28] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:29] [SPLIT] Received split request: amount=3
+[DEBUG][22:40:29] [SPLIT] Received split request: amount=6
+[INFO ][22:40:30] [VANIS] 🚀 Join request received
+[DEBUG][22:40:30] [VANIS] Join rejected - cooldown or already has cells
+[NONE ][22:40:34] DISCONNECTED 127.0.0.1:60706, code: 1005, reason: "", name: "asdasd"
+[NONE ][22:40:34] CONNECTED 127.0.0.1:49178, origin: "http://localhost"
+[INFO ][22:40:34] [VANIS] 🎮 Handshake received (69, 420) - Client is using Vanis protocol
+[INFO ][22:40:34] [VANIS] 🌍 Initial world sent - Border: 45000x45000
+[DEBUG][22:40:34] [VANIS] Player info received - Name: "asdasd"
+[INFO ][22:40:37] [VANIS] 🚀 Join request received
+[INFO ][22:40:37] [VANIS] ✅ Spawning player: "asdasd"
+[DEBUG][22:40:37] [JOIN] Vanis client spawning: asdasd
+[DEBUG][22:40:37] [JOIN] Sent spawn confirm packet to Vanis client
+[INFO ][22:40:37] [JOIN] Player spawned: "asdasd" with 1 cells
+[DEBUG][22:40:38] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:38] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:38] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:38] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:38] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:39] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:39] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:40] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:40] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:41] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:42] [SPLIT] Received split request: amount=3
+[DEBUG][22:40:42] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:42] [SPLIT] Received split request: amount=3
+[DEBUG][22:40:42] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:42] [SPLIT] Received split request: amount=1
+[DEBUG][22:40:43] [SPLIT] Received split request: amount=1
+[DEBUG][22:40:43] [SPLIT] Received split request: amount=3
+[DEBUG][22:40:43] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:44] [SPLIT] Received split request: amount=1
+[DEBUG][22:40:44] [SPLIT] Received split request: amount=3
+[DEBUG][22:40:44] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:45] [SPLIT] Received split request: amount=1
+[DEBUG][22:40:45] [SPLIT] Received split request: amount=3
+[DEBUG][22:40:45] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:46] [SPLIT] Received split request: amount=1
+[DEBUG][22:40:46] [SPLIT] Received split request: amount=3
+[DEBUG][22:40:46] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:47] [SPLIT] Received split request: amount=3
+[DEBUG][22:40:47] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:47] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:48] [SPLIT] Received split request: amount=3
+[DEBUG][22:40:48] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:48] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:49] [SPLIT] Received split request: amount=3
+[DEBUG][22:40:49] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:49] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:50] [SPLIT] Received split request: amount=3
+[DEBUG][22:40:50] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:50] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:51] [SPLIT] Received split request: amount=3
+[DEBUG][22:40:51] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:51] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:51] [SPLIT] Received split request: amount=3
+[DEBUG][22:40:52] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:52] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:53] [SPLIT] Received split request: amount=3
+[DEBUG][22:40:53] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:54] [SPLIT] Received split request: amount=3
+[DEBUG][22:40:54] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:54] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:55] [SPLIT] Received split request: amount=3
+[DEBUG][22:40:55] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:55] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:55] [SPLIT] Received split request: amount=3
+[DEBUG][22:40:55] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:56] [SPLIT] Received split request: amount=2
+[DEBUG][22:40:57] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:58] [SPLIT] Received split request: amount=3
+[DEBUG][22:40:58] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:59] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:59] [SPLIT] Received split request: amount=3
+[DEBUG][22:40:59] [SPLIT] Received split request: amount=6
+[DEBUG][22:40:59] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:00] [SPLIT] Received split request: amount=2
+[DEBUG][22:41:00] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:02] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:02] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:02] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:03] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:03] [SPLIT] Received split request: amount=2
+[DEBUG][22:41:04] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:05] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:05] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:06] [SPLIT] Received split request: amount=2
+[DEBUG][22:41:06] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:07] [SPLIT] Received split request: amount=3
+[DEBUG][22:41:07] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:07] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:08] [SPLIT] Received split request: amount=1
+[DEBUG][22:41:09] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:09] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:10] [SPLIT] Received split request: amount=2
+[DEBUG][22:41:20] [SPLIT] Received split request: amount=3
+[DEBUG][22:41:20] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:20] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:21] [SPLIT] Received split request: amount=3
+[DEBUG][22:41:22] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:22] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:22] [SPLIT] Received split request: amount=3
+[DEBUG][22:41:22] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:23] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:23] [SPLIT] Received split request: amount=3
+[DEBUG][22:41:23] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:24] [SPLIT] Received split request: amount=3
+[DEBUG][22:41:25] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:25] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:26] [SPLIT] Received split request: amount=3
+[DEBUG][22:41:26] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:37] [SPLIT] Received split request: amount=1
+[DEBUG][22:41:38] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:39] [SPLIT] Received split request: amount=1
+[DEBUG][22:41:40] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:40] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:42] [SPLIT] Received split request: amount=1
+[DEBUG][22:41:42] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:44] [SPLIT] Received split request: amount=1
+[DEBUG][22:41:44] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:46] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:46] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:47] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:49] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:49] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:51] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:51] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:52] [SPLIT] Received split request: amount=3
+[DEBUG][22:41:52] [SPLIT] Received split request: amount=6
+[DEBUG][22:41:54] [SPLIT] Received split request: amount=1
+[DEBUG][22:41:54] [SPLIT] Received split request: amount=6
+[DEBUG][22:42:10] [SPLIT] Received split request: amount=1
+[DEBUG][22:42:11] [SPLIT] Received split request: amount=6
+[DEBUG][22:42:13] [SPLIT] Received split request: amount=6
+[DEBUG][22:42:13] [SPLIT] Received split request: amount=6
+[DEBUG][22:42:15] [SPLIT] Received split request: amount=6
+[DEBUG][22:42:15] [SPLIT] Received split request: amount=6
+[DEBUG][22:42:16] [SPLIT] Received split request: amount=3
+[DEBUG][22:42:16] [SPLIT] Received split request: amount=6
+[DEBUG][22:42:17] [SPLIT] Received split request: amount=3
+[DEBUG][22:42:17] [SPLIT] Received split request: amount=6
+[DEBUG][22:42:18] [SPLIT] Received split request: amount=3
+[DEBUG][22:42:18] [SPLIT] Received split request: amount=6
+[DEBUG][22:42:19] [SPLIT] Received split request: amount=3
+[DEBUG][22:42:19] [SPLIT] Received split request: amount=6
+[DEBUG][22:42:20] [SPLIT] Received split request: amount=3
+[DEBUG][22:42:20] [SPLIT] Received split request: amount=6

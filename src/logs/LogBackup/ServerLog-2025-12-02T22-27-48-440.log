@@ -1,0 +1,31 @@
+=== Started 2025-12-02T22-25-48-455 ===
+[INFO ][22:25:48] 0 IP ban records loaded.
+[WARN ][22:25:48] User account "Local Administrator" disabled
+[WARN ][22:25:48] User account "Local Moderator" disabled
+[WARN ][22:25:48] User account "Local User" disabled
+[INFO ][22:25:48] 0 user records loaded.
+[INFO ][22:25:48] 419 bad words loaded
+[INFO ][22:25:48] [1m[32mMultiOgar-Edited 1.6.1[37m - An open source multi-protocol ogar server[0m
+[INFO ][22:25:48] WebSocket: ws
+[INFO ][22:25:48] Started stats server on port 88
+[INFO ][22:25:48] Listening on port 8081
+[INFO ][22:25:48] Current game mode is Free For All
+[NONE ][22:25:51] CONNECTED 127.0.0.1:54646, origin: "http://localhost"
+[INFO ][22:25:51] [VANIS] 🎮 Handshake received (69, 420) - Client is using Vanis protocol
+[INFO ][22:25:51] [VANIS] 🌍 Initial world sent - Border: 45000x45000
+[DEBUG][22:25:51] [VANIS] Player info received - Name: "asdasd"
+[INFO ][22:25:53] [VANIS] 🚀 Join request received
+[INFO ][22:25:53] [VANIS] ✅ Spawning player: "asdasd"
+[DEBUG][22:25:53] [JOIN] Vanis client spawning: asdasd
+[INFO ][22:25:53] [JOIN] Player spawned: "asdasd" with 1 cells
+[NONE ][22:27:03] DISCONNECTED 127.0.0.1:54646, code: 1005, reason: "", name: "asdasd"
+[NONE ][22:27:03] CONNECTED 127.0.0.1:58352, origin: "http://localhost"
+[INFO ][22:27:03] [VANIS] 🎮 Handshake received (69, 420) - Client is using Vanis protocol
+[INFO ][22:27:03] [VANIS] 🌍 Initial world sent - Border: 45000x45000
+[DEBUG][22:27:03] [VANIS] Player info received - Name: "asdasd"
+[INFO ][22:27:06] [VANIS] 🚀 Join request received
+[INFO ][22:27:06] [VANIS] ✅ Spawning player: "asdasd"
+[DEBUG][22:27:06] [JOIN] Vanis client spawning: asdasd
+[INFO ][22:27:06] [JOIN] Player spawned: "asdasd" with 1 cells
+[INFO ][22:27:08] [VANIS] 🚀 Join request received
+[DEBUG][22:27:08] [VANIS] Join rejected - cooldown or already has cells

@@ -1,0 +1,12 @@
+=== Started 2025-12-02T23-02-02-105 ===
+[INFO ][23:02:02] 0 IP ban records loaded.
+[WARN ][23:02:02] User account "Local Administrator" disabled
+[WARN ][23:02:02] User account "Local Moderator" disabled
+[WARN ][23:02:02] User account "Local User" disabled
+[INFO ][23:02:02] 0 user records loaded.
+[INFO ][23:02:02] 419 bad words loaded
+[INFO ][23:02:02] [1m[32mMultiOgar-Edited 1.6.1[37m - An open source multi-protocol ogar server[0m
+[INFO ][23:02:02] WebSocket: ws
+[INFO ][23:02:02] Started stats server on port 88
+[INFO ][23:02:02] Listening on port 8081
+[INFO ][23:02:02] Current game mode is Free For All
