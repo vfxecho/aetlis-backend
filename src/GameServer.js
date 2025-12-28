@@ -26,7 +26,7 @@ var LukaAI = require('./modules/LukaAI');
 // GameServer implementation
 function GameServer() {
     // Location of source files - For renaming or moving source files!
-    this.srcFiles = "../src";
+    this.srcFiles = __dirname;
 
     // Startup
     this.run = true;
@@ -1969,8 +1969,13 @@ GameServer.prototype.mainLoop = function () {
         processedEats = 0;
 
         // Player cell moving, decay, remerge recalc & autosplit
-        // nodesPlayer already sorted BEFORE eat collision collection (see above)
         l = this.nodesPlayer.length;
+        
+        this.nodesPlayer.sort(function (a, b) {
+            var massDiff = b._mass - a._mass;
+            if (massDiff !== 0) return massDiff;
+            return a.birthTick - b.birthTick; // oldest first
+        });
 
         // Collect rigid collisions for Center of Mass resolution (if enabled)
         // This fixes that jittery superposition bullshit when cells stack up
@@ -1986,6 +1991,14 @@ GameServer.prototype.mainLoop = function () {
 
             if (!cell.owner || client.frozen || cell.isDead)
                 continue;
+            
+            if (client.cells.length > 1) { // just in case
+                client.cells.sort(function (a, b) {
+                    var massDiff = b._mass - a._mass;
+                    if (massDiff !== 0) return massDiff;
+                    return a.birthTick - b.birthTick;
+                });
+            }
 
             // Check if this player should use Center of Mass collision
             // If player has more than centerOfMassMaxCells, use standard collision (prevents merge delays)
@@ -4187,11 +4200,11 @@ GameServer.prototype.splitCells = function (client) {
         }
     }
 
-    // Sort cells by age (birthTick)
     if (shouldReverseSplitOrder) {
-        // Reverse order: youngest cells split first (higher birthTick = younger)
         cellToSplit.sort(function (a, b) {
-            return b.birthTick - a.birthTick;
+            var massDiff = b._mass - a._mass;
+            if (massDiff !== 0) return massDiff;
+            return a.birthTick - b.birthTick;
         });
     } else {
         // Normal order: oldest cells split first (lower birthTick = older)
