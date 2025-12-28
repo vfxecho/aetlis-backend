@@ -20,8 +20,27 @@
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "node-gyp rebuild",
         "build-native": "node-gyp rebuild",
-        "install": "node-gyp rebuild || echo 'Native addon build failed, using JS fallback'"
+        "clean": "node-gyp clean",
+        "rebuild": "npm run clean && npm run build",
+        "install": "node-gyp rebuild || echo 'Native addon build failed, using JS fallback'",
+        "start": "node src/index.js",
+        "start:instant": "node src/index.js src/configs/instant.ini",
+        "start:gigasplit": "node src/index.js src/configs/gigasplit.ini",
+        "start:ffa": "node src/index.js src/configs/ffa.ini",
+        "start:crazy": "node src/index.js src/configs/crazy.ini",
+        "pm2:start": "pm2 start ecosystem.config.js",
+        "pm2:start:instant": "pm2 start ecosystem.config.js --only instant",
+        "pm2:start:gigasplit": "pm2 start ecosystem.config.js --only gigasplit",
+        "pm2:start:ffa": "pm2 start ecosystem.config.js --only ffa",
+        "pm2:start:crazy": "pm2 start ecosystem.config.js --only crazy",
+        "pm2:stop": "pm2 stop all",
+        "pm2:restart": "pm2 restart all",
+        "pm2:delete": "pm2 delete all",
+        "pm2:logs": "pm2 logs",
+        "pm2:monit": "pm2 monit",
+        "pm2:list": "pm2 list"
     },
     "repository": {
         "type": "git",

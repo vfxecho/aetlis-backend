@@ -23,6 +23,8 @@ var TournamentManager = require('./tournament/TournamentManager');
 // LukaAI - The AI chatbot for in-game "hey luka" responses
 var LukaAI = require('./modules/LukaAI');
 
+var CellSorter = require('./modules/CellSorter');
+
 // GameServer implementation
 function GameServer() {
     // Location of source files - For renaming or moving source files!
@@ -304,6 +306,7 @@ function GameServer() {
         playerCellSorting: 1,       // Cell sorting mode: 0=off, 1=mouse-direction (cells closer to mouse eat first), 2=age (youngest first), 3=cytos-big (size - age*weight, big first), 4=luka-style (no sort, natural unshift order), 5=youngest-eater-first (solotrick friendly)
         playerAgeDiffThreshold: 2,  // Age gap (ticks): if age diff is below this, treat as equal for sorting tie-breaks (used by sorting mode 2)
         playerCellSortingCytosAgeWeight: 0.1, // Cytos-style weight for mode 3: score = size - age * weight (big-first)
+        playerCellSortingNative: 1, // Use native cpp sorting for better perf (1 = enabled, 0 = JS only)
         playerSplitReverseMass: 45000, // Mass threshold where split ordering reverses when feeding (youngest cells split first). Set to 0 to disable this feature.
         playerEatMult: 1.1401,      // Size multiplier for eating (1.14 = need to be 14% bigger to eat)
         playerEatOverlap: 3,        // Overlap divisor for eating (higher = easier to eat, vanilla = 3)
@@ -615,6 +618,8 @@ GameServer.prototype.start = function () {
 
     this.timerLoopBind = this.timerLoop.bind(this);
     this.mainLoopBind = this.mainLoop.bind(this);
+
+    CellSorter.init();
 
     // Client Binding
     var bind = this.config.clientBind + "";
@@ -1971,11 +1976,16 @@ GameServer.prototype.mainLoop = function () {
         // Player cell moving, decay, remerge recalc & autosplit
         l = this.nodesPlayer.length;
         
-        this.nodesPlayer.sort(function (a, b) {
-            var massDiff = b._mass - a._mass;
-            if (massDiff !== 0) return massDiff;
-            return a.birthTick - b.birthTick; // oldest first
-        });
+        // Sort nodesPlayer by mass (biggest first), then by age (oldest first)
+        if (this.config.playerCellSortingNative) {
+            CellSorter.sortCellsInPlace(this.nodesPlayer);
+        } else {
+            this.nodesPlayer.sort(function (a, b) {
+                var massDiff = b._mass - a._mass;
+                if (massDiff !== 0) return massDiff;
+                return a.birthTick - b.birthTick;
+            });
+        }
 
         // Collect rigid collisions for Center of Mass resolution (if enabled)
         // This fixes that jittery superposition bullshit when cells stack up
@@ -1992,12 +2002,17 @@ GameServer.prototype.mainLoop = function () {
             if (!cell.owner || client.frozen || cell.isDead)
                 continue;
             
-            if (client.cells.length > 1) { // just in case
-                client.cells.sort(function (a, b) {
-                    var massDiff = b._mass - a._mass;
-                    if (massDiff !== 0) return massDiff;
-                    return a.birthTick - b.birthTick;
-                });
+            // Sort client's cells by mass (biggest first), then by age (oldest first)
+            if (client.cells.length > 1) {
+                if (self.config.playerCellSortingNative) {
+                    CellSorter.sortCellsInPlace(client.cells);
+                } else {
+                    client.cells.sort(function (a, b) {
+                        var massDiff = b._mass - a._mass;
+                        if (massDiff !== 0) return massDiff;
+                        return a.birthTick - b.birthTick;
+                    });
+                }
             }
 
             // Check if this player should use Center of Mass collision
