@@ -2034,7 +2034,6 @@ GameServer.prototype.mainLoop = function () {
             this.autoSplit(cell, client);
 
             // Check collisions - ONLY if native sorting enabled AND player is feeding, otherwise use legacy
-            // User request: "if feeding isFeedingThisTick, then cellsorting native 1 but if no feeding cellsorting native 0"
             var useNativeSorting = self.config.playerCellSortingNative && client.isFeedingThisTick;
             if (useNativeSorting) {
                 var eatCollisions = [];
