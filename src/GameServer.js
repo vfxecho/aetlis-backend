@@ -307,7 +307,7 @@ function GameServer() {
         playerAgeDiffThreshold: 2,  // Age gap (ticks): if age diff is below this, treat as equal for sorting tie-breaks (used by sorting mode 2)
         playerCellSortingCytosAgeWeight: 0.1, // Cytos-style weight for mode 3: score = size - age * weight (big-first)
         playerCellSortingNative: 1, // Use native cpp sorting for better perf (1 = enabled, 0 = JS only)
-        playerSplitReverseMass: 45000, // Mass threshold where split ordering reverses when feeding (youngest cells split first). Set to 0 to disable this feature.
+        playerSplitReverseMass: 42525255000, // Mass threshold where split ordering reverses when feeding (youngest cells split first). Set to 0 to disable this feature.
         playerEatMult: 1.1401,      // Size multiplier for eating (1.14 = need to be 14% bigger to eat)
         playerEatOverlap: 3,        // Overlap divisor for eating (higher = easier to eat, vanilla = 3)
         playerEatDelay: 13,         // Ticks before cells can eat each other after split (OgarX-style)
@@ -1931,13 +1931,21 @@ GameServer.prototype.mainLoop = function () {
         this.updateTimes.t2 = sw.lap();
 
         // Player cell collision & eating
+        // LEGACY MODE ONLY: When playerCellSortingNative = 0, eating happens here directly
+        // When playerCellSortingNative = 1, eating is done via eatCollisions in the second loop
         l = this.nodesPlayer.length;
 
         // nodesPlayer collision (squared distance optimization)
+        // This loop does eating when:
+        // 1. Native sorting is OFF (legacy MultiOgar behavior), OR
+        // 2. Native sorting is ON but THIS CLIENT is NOT feeding (fallback to legacy for non-feeding players)
         for (i = 0; i < l; i++) {
             cell = this.nodesPlayer[i];
             if (!cell || !cell.owner || cell.isDead || cell.isRemoved) continue;
             client = cell.owner;
+
+            // Skip if this client should use native sorting (feeding while native=ON)
+            if (this.config.playerCellSortingNative && client.isFeedingThisTick) continue;
 
             this.finder.find(cell.quadItem.bound, function (check) {
                 var checkCell = check.cell;
@@ -1975,16 +1983,11 @@ GameServer.prototype.mainLoop = function () {
 
         // Player cell moving, decay, remerge recalc & autosplit
         l = this.nodesPlayer.length;
-        
-        // Sort nodesPlayer by mass (biggest first), then by age (oldest first)
+
+        // Sort nodesPlayer by: 1) boosting first (boostDistance > 0), 2) size (biggest first)
+        //NO age tie-breaker!
         if (this.config.playerCellSortingNative) {
             CellSorter.sortCellsInPlace(this.nodesPlayer);
-        } else {
-            this.nodesPlayer.sort(function (a, b) {
-                var massDiff = b._mass - a._mass;
-                if (massDiff !== 0) return massDiff;
-                return a.birthTick - b.birthTick;
-            });
         }
 
         // Collect rigid collisions for Center of Mass resolution (if enabled)
@@ -1994,29 +1997,24 @@ GameServer.prototype.mainLoop = function () {
         for (i = 0; i < l; i++) {
             cell = this.nodesPlayer[i];
 
-            // Safety check - cell might be undefined if array was modified
+            // Safety check 
             if (!cell) continue;
 
             client = cell.owner;
 
             if (!cell.owner || client.frozen || cell.isDead)
                 continue;
-            
-            // Sort client's cells by mass (biggest first), then by age (oldest first)
-            if (client.cells.length > 1) {
-                if (self.config.playerCellSortingNative) {
-                    CellSorter.sortCellsInPlace(client.cells);
-                } else {
-                    client.cells.sort(function (a, b) {
-                        var massDiff = b._mass - a._mass;
-                        if (massDiff !== 0) return massDiff;
-                        return a.birthTick - b.birthTick;
-                    });
-                }
+
+            // Sort client's cells: 1) boostDistance > 0 first, 2) size (biggest first)
+
+            // Sort client cells
+            //Sort if FEED
+            if (client.cells.length > 1 && !client.isBot && !client.isMi && client.ejectMacro && self.config.playerCellSortingNative) {
+                CellSorter.sortCellsInPlace(client.cells);
             }
 
             // Check if this player should use Center of Mass collision
-            // If player has more than centerOfMassMaxCells, use standard collision (prevents merge delays)
+            // If player has more than centerOfMassMaxCells, use standard collision
             var shouldUseCOM = self.config.useCenterOfMassCollision &&
                 client.cells.length <= self.config.centerOfMassMaxCells;
 
@@ -2035,26 +2033,77 @@ GameServer.prototype.mainLoop = function () {
 
             this.autoSplit(cell, client);
 
-            this.finder.find(cell.quadItem.bound, function (check) {
-                if (check.cell === cell) return;
-                var m = self.checkCellCollision(cell, check.cell);
-                if (self.checkRigidCollision(m)) {
-                    if (shouldUseCOM) {
-                        // Collect for batch resolution - don't resolve yet
-                        rigidCollisions.push({ manifold: m, cell: cell, check: check.cell });
-                    } else {
-                        // Standard immediate resolution
-                        self.resolveRigidCollision(m);
+            // Check collisions - ONLY if native sorting enabled AND player is feeding, otherwise use legacy
+            // User request: "if feeding isFeedingThisTick, then cellsorting native 1 but if no feeding cellsorting native 0"
+            var useNativeSorting = self.config.playerCellSortingNative && client.isFeedingThisTick;
+            if (useNativeSorting) {
+                var eatCollisions = [];
+
+                // Check collisions (separate pass for eatCollisions logic)
+                this.finder.find(cell.quadItem.bound, function (check) {
+                    if (check.cell === cell) return;
+                    var m = self.checkCellCollision(cell, check.cell);
+
+                    // Rigid Collision -> COM 
+                    if (self.checkRigidCollision(m)) {
+                        if (shouldUseCOM) {
+                            rigidCollisions.push({ manifold: m, cell: cell, check: check.cell });
+                        } else {
+                            self.resolveRigidCollision(m);
+                            processedEats++;
+                        }
+                    }
+                    // Eat Collisions
+                    else {
+                        if (cell.isRemoved || check.cell.isRemoved) return;
+                        if (cell.isDead) return;
+
+                        eatCollisions.push({
+                            manifold: m,
+                            cell: cell,
+                            check: check.cell
+                        });
+                    }
+                });
+
+                // Sort eatCollisions 
+                if (eatCollisions.length > 0) {
+                    CellSorter.sortEatCollisions(eatCollisions);
+                }
+
+                // Resolve sorted eat collisions(this might be broke fwd or i'm dumb)
+                for (var ec = 0; ec < eatCollisions.length; ec++) {
+                    var collision = eatCollisions[ec];
+                    if (!collision.cell.isRemoved && !collision.check.isRemoved) {
+                        self.resolveCollision(collision.manifold);
                         processedEats++;
                     }
                 }
-            });
+            } else {
+                // No eatCollisions here, only rigid collisions
+                // Eating was already done in the first nodesPlayer loop (lines 1937-1966)
+                this.finder.find(cell.quadItem.bound, function (check) {
+                    if (check.cell === cell) return;
+                    var m = self.checkCellCollision(cell, check.cell);
+                    if (self.checkRigidCollision(m)) {
+                        self.resolveRigidCollision(m);
+                        processedEats++;
+                    }
+                });
+            }
 
             // decay every tick
-            this.updateMassDecay(cell);
-
-            this.updateNodeQuad(cell);
+            if (!cell.isRemoved) {
+                this.updateMassDecay(cell);
+                this.updateNodeQuad(cell);
+            } else {
+                // Cell was removed (eaten), adjust loop indices
+                i--;
+                l--;
+            }
         }
+
+        //rest is not changed most updated part is mainloop section (eatcollisions and resolvecollisions)
 
         // Resolve collected rigid collisions using Center of Mass
         // This resolves from center outward, preventing that shitty jitter
@@ -2957,24 +3006,29 @@ GameServer.prototype.checkRigidCollision = function (m) {
 };
 
 // Resolves rigid body collision (with mouse projection for linesplit)
+// Go-style formula: rrc (resolve rigid collision)
 GameServer.prototype.resolveRigidCollision = function (m) {
-    // 1:1 from sort.js (plus our mouse projection hook).
     if (m.d == 0) return;
 
     var a = m.cell;
     var b = m.check;
 
-    // Calculate push force
-    var rsum = a._size + b._size; // radius sum of a & b
-    var push = Math.min((rsum - m.d) / m.d, rsum - m.d); // min extrusion force
-    if (push / rsum < 0) return;
+    // Go-style overlap calculation
+    var overlap = a._size + b._size - m.d;
+    if (overlap <= 0) return;
+
+    // Go formula: push = overlap / distance
+    var push = overlap / m.d;
 
     var massSum = a._sizeSquared + b._sizeSquared;
     if (massSum <= 0) return;
+    var invMassSum = 1.0 / massSum;
 
-    // Default: mass-weighted (bigger moves less)
-    var m1 = push * (b._sizeSquared / massSum); // apply to a
-    var m2 = push * (a._sizeSquared / massSum); // apply to b
+    // Go-style: each cell's own sizeSquared determines how much IT moves
+    // r1 = push * cell.Radius2 * invMassSum (applied to check)
+    // r2 = push * check.Radius2 * invMassSum (applied to cell)
+    var r1 = push * a._sizeSquared * invMassSum;
+    var r2 = push * b._sizeSquared * invMassSum;
 
     var dx = m.dx;
     var dy = m.dy;
@@ -2992,10 +3046,10 @@ GameServer.prototype.resolveRigidCollision = function (m) {
     var beforeBx = b.position.x;
     var beforeBy = b.position.y;
 
-    a.position.x -= dx * m1;
-    a.position.y -= dy * m1;
-    b.position.x += dx * m2;
-    b.position.y += dy * m2;
+    a.position.x -= dx * r2;
+    a.position.y -= dy * r2;
+    b.position.x += dx * r1;
+    b.position.y += dy * r1;
 
     // COLLISION LOGGING: Log rigid collision resolution (only when significant push > 0.1)
     var logOwner = a.owner || b.owner;

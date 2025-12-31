@@ -203,8 +203,8 @@ UpdateNodes.prototype.writeUpdateItems6 = function (writer) {
         var flags = 0;
         if (node.isSpiked)
             flags |= 0x01;      // isVirus
-        if (node.cellType == 0)
-            flags |= 0x02;      // isColorPresent (for players only)
+        if (node.cellType == 0 && this.playerTracker.gameServer.config.serverGamemode === 3)
+            flags |= 0x02;      // isColorPresent (only for Rainbow mode)
         if (node.isAgitated)
             flags |= 0x10;      // isAgitated
         if (node.cellType == 3)
@@ -293,8 +293,8 @@ UpdateNodes.prototype.writeUpdateItems11 = function (writer) {
         var flags = 0;
         if (node.isSpiked)
             flags |= 0x01;      // isVirus
-        if (node.cellType == 0 || node.cellType == 9)
-            flags |= 0x02;      // isColorPresent (for players and crown)
+        if ((node.cellType == 0 && this.playerTracker.gameServer.config.serverGamemode === 3) || node.cellType == 9)
+            flags |= 0x02;      // isColorPresent (for players only if rainbow, always for crown)
         if (node.isAgitated)
             flags |= 0x10;      // isAgitated
         if (node.cellType == 3)
